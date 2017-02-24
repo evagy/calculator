@@ -1,0 +1,22 @@
+{
+  "name": "caculator",
+  "version": "1.0.0",
+  "description": "caculator for IFE task",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuyangGong/caculator.git"
+  },
+  "keywords": [
+    "caculator"
+  ],
+  "author": "Yuyang <421736079@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YuyangGong/caculator/issues"
+  },
+  "homepage": "https://github.com/YuyangGong/caculator#readme"
+}
