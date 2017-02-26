@@ -1,0 +1,85 @@
+
+//统一的按钮及输入框hover颜色
+@hoverColor: rgba(0,0,255,.3);
+@inputHeight: 60px;
+
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-family: 'Microsoft YaHei';
+    overflow: hidden;
+}
+body {
+	position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(45deg, #bb469d 0%, #bd63ac 10%, #c58abd 20%, #d2aac7 30%, #cbbdc2 40%, #cbcac7 50%, #c1cec7 60%, #afe4d5 70%, #8dddd1 80%, #6ad3ce 90%, #50c8c9 100%);
+}
+.content {
+	position: relative;
+	margin-top: 4%;
+	text-align: center;	
+	
+	> .title {
+		padding: 1em;
+		font-size: 1.5em;
+		color: #666;
+	}
+
+	> .content-question {
+		box-sizing: border-box;
+		padding: 10px 30px;
+		width: 60%;
+		height: @inputHeight;
+		font-family: 'monospace';
+		font-size: 22px;
+		border-radius: 1111px;
+		outline: none;
+		border: none;
+		transition: all .4s;
+
+		&:hover {
+			box-shadow: 1px 1px 20px 1px @hoverColor;
+		}
+	}
+
+	> .caculate-btn {
+		width: 5em;
+		height: @inputHeight;
+		font-size: 25px;
+		white-space: 10px;
+		font-weight: 900;
+		color: #fff;
+		background-color: #bc59a7;
+		border-radius: 1111px;
+		border: none;
+		outline: none;
+		transition: all .4s;
+		cursor: pointer;
+
+		&:hover {
+			background-color: @hoverColor;
+		}
+	}
+	.content-answer {
+		margin-top: 2%;
+		color: #777;
+		
+		&.correct {
+			color: green;
+		}
+		&.error {
+			color: red;
+		}
+	}
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	font-size: .6em;
+	text-align: center;
+}

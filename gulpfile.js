@@ -1,10 +1,11 @@
 const gulp = require('gulp'),
-
-	  babel = require('gulp-babel'),
-	  uglify = require('gulp-uglify'),
+		
+	  webpack = require('gulp-webpack'),		
+	  rename = require('gulp-rename'),
 
 	  htmlmin = require('gulp-htmlmin'),
 
+	  less = require('gulp-less'),
 	  cleanCSS = require('gulp-clean-css'),
 	  prefixer = require('gulp-autoprefixer'),
 
@@ -23,30 +24,29 @@ gulp.task('htmlTask', _ => {
 			sortAttributes: true,
 			sortClassName: true
 		}))
-		.pipe(gulp.dest('dist'));
+		.pipe(gulp.dest('public'));
 });
 
 gulp.task('cssTask', _ => {
-	return gulp.src('src/css/*.css')
-		.pipe(prefixer())
-		.pipe(cleanCSS())
-		.pipe(gulp.dest('dist/css'));
+	return gulp.src('src/less/*.less')
+		.pipe(sourcemaps.init())
+			.pipe(less())
+			.pipe(prefixer())
+			.pipe(cleanCSS())
+			.pipe(rename({suffix: '.min'}))
+		.pipe(sourcemaps.write('.'))
+		.pipe(gulp.dest('public/css/'));
 });
 
 gulp.task('jsTask', _ => {
-	return gulp.src('src/js/*.js')
-	  	.pipe(sourcemaps.init())
-			.pipe(babel({
-				presets: ['es2015']
-			}))
-			.pipe(uglify())
-		.pipe(sourcemaps.write('../maps'))
-		.pipe(gulp.dest('dist/js'));
+	return gulp.src('public/js/main.js')
+	    .pipe(webpack(require('./webpack.config.js')))
+		.pipe(gulp.dest('public/js'));
 });
 
 
 gulp.task('default', ['htmlTask', 'cssTask', 'jsTask'], _ => {})
 
-gulp.watch('js/*.js', ['jsTask']);
-gulp.watch('css/*.css', ['cssTask']);
-gulp.watch('*.html', ['htmlTask']);
+gulp.watch('src/js/*.js', ['jsTask']);
+gulp.watch('src/less/*.less', ['cssTask']);
+gulp.watch('src/*.html', ['htmlTask']);

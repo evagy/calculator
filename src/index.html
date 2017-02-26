@@ -1,14 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<title>caculator</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
-	
-<script type="text/javascript" src="js/main.js"></script>
+	<div class="content">
+		<div class="title">算术计算器</div>
+		<input type="text" class="content-question" placeholder="请输入您的计算式">
+		<button class="caculate-btn">计算</button>
+		<div class="content-answer correct" style="display: none"></div>
+	</div>
+	<div class="footer">
+		a simple caculator code by <a href='https://github.com/YuyangGong'>yuyang</a>
+	</div>
+<script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
 </body>
 </html>
