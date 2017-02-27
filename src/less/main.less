@@ -2,6 +2,7 @@
 //统一的按钮及输入框hover颜色
 @hoverColor: rgba(0,0,255,.3);
 @inputHeight: 60px;
+@smallWidth: 80%;
 
 html {
     width: 100%;
@@ -26,6 +27,13 @@ body {
 		padding: 1em;
 		font-size: 1.5em;
 		color: #666;
+
+		@media (max-width:768px) {
+			& {
+				padding: 0 0 .4em;
+				font-size: 1.35em;
+			}
+		}
 	}
 
 	> .content-question {
@@ -42,6 +50,14 @@ body {
 
 		&:hover {
 			box-shadow: 1px 1px 20px 1px @hoverColor;
+		}
+
+		@media (max-width:768px) {
+			& {
+				width: @smallWidth;
+				height: @inputHeight * 0.8;
+				margin-bottom: @inputHeight * 0.2;
+			}
 		}
 	}
 
@@ -62,13 +78,24 @@ body {
 		&:hover {
 			background-color: @hoverColor;
 		}
+
+		@media (max-width:768px) {
+			& {
+				width: @smallWidth;
+				height: @inputHeight * 0.6;
+			}
+		}		
 	}
 }
 .result {
 	position: relative;
 	margin-top: 2%;
 	color: #777;
-	
+	@media (max-width:768px) {
+		& {
+			margin-top: 1%;
+		}
+	}
 	&.correct {
 		color: green;
 	}
@@ -78,6 +105,15 @@ body {
 }
 .setting {
 	text-align: center;
+	margin-top: 60px;
+	@media (max-width:768px) {
+		& {
+			margin-top: 0;
+		}
+		.text {
+		  display: none;
+		}
+	}
 	div {
 		margin-top: 30px;
 	}
@@ -86,13 +122,31 @@ body {
 		margin-right: 20px;
 		width: 25%;
 		height: 40px;
+		@media (max-width:768px) {
+			& {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: @smallWidth;
+			height: 35px;
+			margin-bottom: 10px;
+			}
+		}
 	}
 	button {
 		.content>.caculate-btn;
 		height: 40px;
 		width: 100px;
+
+		@media (max-width:768px) {
+			& {
+				width: @smallWidth;
+				height: 35px;
+			}
+		}
 	}
 }
+
 .info {
 	position: absolute;
 	bottom: 20px;

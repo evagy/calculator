@@ -18,8 +18,8 @@ module.exports = {
 			}
 		]
 	},
-	// plugins: [
-	// 	new webpack.optimize.UglifyJsPlugin(),
-	// 	new webpack.BannerPlugin('This file is created by yuyang')
-	// ]
+	plugins: [
+		new webpack.optimize.UglifyJsPlugin(),
+		new webpack.BannerPlugin('A simple caculator created by yuyang')
+	]
 };
