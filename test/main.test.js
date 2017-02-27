@@ -1,5 +1,5 @@
 let assert = require('assert'),
-	ca = require('../src/js/main.js');
+	ca = require('../src/js/caculate.js');
 
 let equal = assert.strictEqual;
 
