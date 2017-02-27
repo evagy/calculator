@@ -63,16 +63,34 @@ body {
 			background-color: @hoverColor;
 		}
 	}
-	.content-answer {
-		margin-top: 2%;
-		color: #777;
-		
-		&.correct {
-			color: green;
-		}
-		&.error {
-			color: red;
-		}
+}
+.result {
+	position: relative;
+	margin-top: 2%;
+	color: #777;
+	
+	&.correct {
+		color: green;
+	}
+	&.error {
+		color: red;
+	}
+}
+.setting {
+	text-align: center;
+	div {
+		margin-top: 30px;
+	}
+	input {
+		.content>.content-question;
+		margin-right: 20px;
+		width: 25%;
+		height: 40px;
+	}
+	button {
+		.content>.caculate-btn;
+		height: 40px;
+		width: 100px;
 	}
 }
 .footer {

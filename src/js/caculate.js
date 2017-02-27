@@ -29,6 +29,7 @@ function caculate (str) {
 		if(/\^/.test(str)) throw new Error('错误的使用: ^幂运算符');
 
 		// 第五步 处理方法或者圆括号内的内容, 将其转换为确切的数值.
+		// eg: pow(2,3) => 8,   (1+2+3) => 6s
 		while(/\b([a-z_]\w*)?\([^(]*?\)/i.test(str)) {
 			str = str.replace(/\b([a-z_]\w*)?\(([^(]*?)\)/i, (...arg) => {
 				let res, method = arg[1];
@@ -45,11 +46,13 @@ function caculate (str) {
 					if(usage) {
 						// 如果匹配到的方法名存在且是函数形式，则带参数求值
 						// 不需要考虑参数数量限制， 这个判断逻辑放在replaceMethods的相应方法中
+						// 而replaceMethods的方法通过bindArgNum再包装，可以判断
 						if(usage instanceof Function) {
 							try {
 								res = eval(`replaceMethods.${arg[1]}(${arg[2]})`);
 							} catch(e) {
-								throw new Error('不正确的算术格式~');
+								if(e.message.indexOf('传入') > -1) throw e;
+								else throw new Error('不正确的算术格式~2');
 							}
 						} else if(typeof usage === 'number') {
 							throw new Error(`不能将常量 ${method} 当方法用`);
@@ -88,7 +91,8 @@ function caculate (str) {
 // 管理计算器的状态 
 let status = {
 	isAngle: true,
-	argModel: 0
+	argModel: 0,
+	allowVar: false
 };
 
 // 一个储存自己数学方法的仓库
@@ -125,7 +129,6 @@ let replaceMethods = {
 	
 	'abs': Math.abs,
 	'avg': util.avg,
-
 	'sin': Math.sin,
 	'cos': Math.cos,
 	'tan': Math.tan,
@@ -137,6 +140,10 @@ let replaceMethods = {
 	'asinh': util.asinh,
 	'atanh': util.atanh,
 	'atan2': Math.atan2,
+	'logMutil' : util.log,
+	'cbrt': util.cbrt,
+	'sum': util.sum,
+	'pow': util.pow,
 
 	// ES6中Math对象上有等同性质的函数Math.log10
 	//但是根据MDN(https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math/log10)
@@ -146,13 +153,7 @@ let replaceMethods = {
 
 	// 常量
 	'e': Math.E,
-	'π': Math.PI,
-
-	
-	'logMutil' : util.log,
-	'cbrt': util.cbrt,
-	'sum': util.sum,
-	'pow': util.pow
+	'π': Math.PI
 };
 
 // 将方法中的三角函数类方法再加工，根据设置(status.isAngle)
@@ -177,7 +178,7 @@ let replaceMethods = {
 // 在严格模式时候，参数过多和参数过少都会提醒。 代码： 1
 let argNum = {
 	'abs': 1,
-	'avg': 'n', // 代表可以用n个参数;
+	'avg': 2, 
 	'sin': 1,
 	'cos': 1,
 	'tan': 1,
@@ -193,7 +194,7 @@ let argNum = {
 	'ln': 1,
 	'logMutil' : 2,
 	'cbrt': 1,
-	'sum': 'n',
+	'sum': 2,
 	'pow': 2
 };
 
@@ -212,42 +213,71 @@ const validMethod = (name, body) => {
 	if(!(/^[a-z_]\w*$/i.test(name))) {
 		return '不合法的方法名';
 	} else {
+		if(replaceMethods[name]) return '已经有同名常量或方法存在';
+		else {
+			// 让方法体跑一遍，就知道其是不是合法的了
+			// 这个replace可能与createMethod中的replace重复了
+			// 某种意义上可以封装一下后复用
+			let res = caculate(body.replace(/\s/g, '')
+									.replace(/\b[a-z_]\w*(?!\(|\w)/g, v => replaceMethods[v] ? replaceMethods[v] : 1));
+			return typeof res === 'number' ? true : res;
+		}
+	}
+};
 
+const createMethod = (name, body) => {
+
+	// 外部自定义方法调用
+	var arr = [], ori;
+	ori = body = body.replace(/\s/g, '');
+	body = body.replace(/\s/g, '')
+				.replace(/\b[a-z_]\w*(?!\(|\w)/g, v => {
+					if(replaceMethods[v]) return replaceMethods[v];
+					else {
+						if(arr.indexOf(v) === -1) arr.push(v); 
+						return v;
+					}
+				});
+	argNum[name] = arr.length;
+	function fn(...arg) {
+		return ori.replace(RegExp(`\\b(${arr.join('|')})\\b`, 'g'), v => arg[arr.indexOf(v)]);
 	}
+	replaceMethods[name] = bindArgNum(fn, arr.length, name);
 };
-const createMethod = (name, body, argNum) => {
-	if(typeof body === 'string') {
-		var arr = [];
-		body = body.replace(/\s/g, '');
-		body = body.replace(/\b[a-z_]\w*(?!\()/g, v => {
-			if(replaceMethods[v]) return replaceMethods[v];
-			else {
-				if(arr.indexOf(v) === -1) arr.push(v); 
-				return v;
-			}
-		});
-		argNum[name] = arr.length;
-		return function fn(...arg) {
-			return body.replace(RegExp(`\\b(${arr.join('|')})\\b`, 'g'), v => arg[arr.indexOf(v)]);
-		}
-	} else {
-		return function(...arg) {
-			if(arg.length < argNum) throw new Errow(`传入${name}方法的参数过少`);
-			else if(arg.length > argNum) {
-				if(status.argModel === 0) return body.apply(null, arg);
-				else if(status.argModel === 1) throw new Error('传入${name}方法的参数过多');
-			} else {
-				return body.apply(null, arg);
-			}
+
+
+// 根据参数数量表绑定参数，以提醒因参数导致的错误。
+const bindArgNum = (fn, argNum, name) => {
+	return function(...arg) {
+		if(arg.length < argNum) throw new Error(`传入${name}方法的参数过少`);
+		else if(arg.length > argNum) {
+			if(status.argModel === 0) return fn.apply(null, arg);
+			else if(status.argModel === 1) throw new Error('传入${name}方法的参数过多');
+		} else {
+			return fn.apply(null, arg);
 		}
 	}
-};
+}
 
 //  绑定已有方法的参数数量
 for(let key in argNum) {
-	replaceMethods[key] = createMethod(key, replaceMethods[key], argNum[key]);
+	replaceMethods[key] = bindArgNum(replaceMethods[key], argNum[key], key);
 };
 
+// 把创建新常量和方法的函数 挂载在caculate上，方便外界调用
+caculate.create = {
+	validMethod: validMethod,
+	createMethod: createMethod,
+	validVarible: validVarible,
+	createVarible: createVarible
+}
+
+// 暴露外界接口，可以改变status
+caculate.change = {
+	changeArgModel: () => status.argModel = +!status.argModel,
+	changeIsAngle: () => status.isAngle = !status.isAngle,
+	changeAllowVar: () => status.allowVar = !status.allowVar
+}
 
 
 module.exports = caculate;
