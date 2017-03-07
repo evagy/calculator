@@ -82,6 +82,42 @@ body {
 		}		
 	}
 }
+
+#simple-arrow(@size, @color) {
+	position: absolute;
+	width: @size;
+	height: @size * 4;
+	background-color: @color;
+
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: -2*@size;
+		left: -1.5*@size;
+		width: 0;
+		height: 0;
+		border-top: 2*@size solid @color;
+		border-right: 2*@size solid transparent;
+		border-left: 2*@size solid transparent;
+		border-bottom: 0;
+	}
+}
+#arrow {
+	#simple-arrow(4px, red);
+	z-index: 2;
+	opacity: .8;
+	left: 100px;
+	animation: move 1.2s infinite ease-out;
+}
+@keyframes move {
+	from {
+		top:0px;
+	}
+	to {
+		top:20px;
+	}
+}
+
 .result {
 	position: relative;
 	margin-top: 2%;

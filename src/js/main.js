@@ -5,17 +5,20 @@ var create = cacu.create;
 
 // 处理运算
 function dealCacu(input, resultDiv) {
-	var	res = cacu(input.val()), isSuccess;
+	var	res = cacu(input.val()), 
+		errorIndex,
+		isSuccess;
 	if(typeof res === 'number') {
 		isSuccess = true;
 		if(res !== res) res = '运算结果为: NaN, 无意义的运算';
 		else if(/Infinity/.test(res.toString())) res = '无穷：'+res.toString().replace(/Infinity/, 'n');
 		else res = `您的运算结果为：${res}`;
 	} else {
-		res = `${res[2]}处错误：${errorMessage[res[0]]} : ${res[1]}`;
+		errorIndex = res[2];
+		res = `索引${res[2]}处错误：${errorMessage[res[0]]} : ${res[1]}`;
 		isSuccess = false;
 	}
-	showRes(resultDiv, isSuccess, res);
+	showRes(resultDiv, isSuccess, res, errorIndex);
 }
 
 // 处理新建常量
@@ -47,9 +50,19 @@ function createMethod(input, resultDiv) {
 }
 
 // 显示结果
-function showRes(resultDiv, isSuccess, message) {
+function showRes(resultDiv, isSuccess, message, errorIndex) {
 	if(isSuccess) resultDiv.removeClass('error').addClass('correct');
-	else resultDiv.removeClass('correct').addClass('error');
+	else {
+		resultDiv.removeClass('correct').addClass('error');
+		if(errorIndex !== undefined) {
+			let offset = $('.content-question').offset();
+			console.log(offset);
+			$('#arrow').css({
+				left: offset.left + 34 + errorIndex*11,
+				marginTop: offset.top - 30
+			}).show();
+		}
+	}
 	resultDiv.text(message).slideDown('slow');
 }
 
@@ -81,9 +94,11 @@ $('input').keyup(function(e) {
 		getRes($(this).parent().find('button'));
 	} else {
 		$('.result').slideUp('slow');
+		$('#arrow').hide();
 	}
 });
 
 $('input').click(function(){
 	$('.result').slideUp('slow');
+	$('#arrow').hide();
 })
