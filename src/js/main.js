@@ -1,4 +1,4 @@
-let cacu = require('./caculate.js');
+let cacu = require('./core.js');
 
 var create = cacu.create;
 
@@ -21,8 +21,7 @@ function createConstant(input, resultDiv) {
 	var name = input.eq(0).val(),
 		value = input.eq(1).val(),
 		res = create.validVarible(name, value);
-	
-	if(typeof res !== 'string') {
+	if(res === true) {
 		create.createVarible(name, value);
 		showRes(resultDiv, true, `创建成功！常量名:${name} 常量值:${value}`);
 	} else {
@@ -35,8 +34,7 @@ function createMethod(input, resultDiv) {
 	var name = input.eq(0).val(),
 		value = input.eq(1).val(),
 		res = create.validMethod(name, value);
-	
-	if(typeof res !== 'string') {
+	if(res === true) {
 		create.createMethod(name, value);
 		showRes(resultDiv, true, `创建成功！常量名:${name} 常量值:${value}`);
 	} else {

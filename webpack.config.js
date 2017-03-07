@@ -5,7 +5,7 @@ const path = require('path'),
 
 module.exports = {
 	devtool: 'cheap-source-map',
-	entry: './src/js/core.js',
+	entry: './src/js/main.js',
 	output: {
 		filename: 'main.min.js',
 		path: path.resolve(__dirname, 'public/js')

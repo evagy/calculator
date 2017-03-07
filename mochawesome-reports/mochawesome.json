@@ -5,9 +5,9 @@
     "passes": 32,
     "pending": 0,
     "failures": 0,
-    "start": "2017-03-07T10:44:24.360Z",
-    "end": "2017-03-07T10:44:24.391Z",
-    "duration": 31,
+    "start": "2017-03-07T10:46:57.961Z",
+    "end": "2017-03-07T10:46:57.977Z",
+    "duration": 16,
     "testsRegistered": 32,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -38,8 +38,8 @@
             "code": "equal(ca('1+2'), 3);",
             "err": {},
             "isRoot": false,
-            "uuid": "ac0c5645-c50e-4111-b164-cb179823446f",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "c5b44266-d6a2-467d-8097-5212146e4e35",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -55,8 +55,8 @@
             "code": "equal(ca('1-2'), -1);",
             "err": {},
             "isRoot": false,
-            "uuid": "ace8368b-9d97-44f3-a51d-e38fa7ded912",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "26a36832-fd11-40ae-bd9f-709d3f1c4777",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -72,8 +72,8 @@
             "code": "equal(ca('2*2'), 4);",
             "err": {},
             "isRoot": false,
-            "uuid": "a7efcbc8-7e86-46ab-8fc0-d5e30c6dcd1a",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "e5f41ba2-45f4-4553-88b5-a52079c50d1e",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -89,8 +89,8 @@
             "code": "equal(ca('4/3'), +(4 / 3).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "d13e377e-24d9-4777-9125-0e31078e69be",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "e915be3d-9269-4119-b4c2-ea9fc75ec178",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -106,8 +106,8 @@
             "code": "equal(ca('2^3'), 8);",
             "err": {},
             "isRoot": false,
-            "uuid": "07c55e0a-e488-408e-8724-d503eeeac9ae",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "cbf6e6e6-c3c7-4296-8988-2dfed3cbc433",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -123,8 +123,8 @@
             "code": "equal(ca('3%2'), 1);",
             "err": {},
             "isRoot": false,
-            "uuid": "15d98b5b-0a0d-40ab-a1b5-13f5cad92f87",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "09e1494d-bd1d-4348-8a39-372576404496",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -140,15 +140,15 @@
             "code": "equal(ca('abs(-1)'), 1);",
             "err": {},
             "isRoot": false,
-            "uuid": "f6a6f363-1dcf-4194-9594-5d04bb256b5f",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "47352b8a-756b-4d6c-a78d-2dba107c25cd",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
             "title": "均值运算",
             "fullTitle": "简单测试 均值运算",
             "timedOut": false,
-            "duration": 15,
+            "duration": 0,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -157,8 +157,8 @@
             "code": "equal(ca('avg(1,2)'), 1.5);",
             "err": {},
             "isRoot": false,
-            "uuid": "7da0b24c-710c-4fee-9540-d0b6e47a1aa0",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "79666206-85fe-45b0-aa6a-c8e5053f0071",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -174,8 +174,8 @@
             "code": "equal(ca('sin(30)'), 0.5);",
             "err": {},
             "isRoot": false,
-            "uuid": "6507da77-0d7e-48b9-8ac8-38c39d7719e9",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "1bc0f6b3-a20f-4f4a-a993-c9b506dd0296",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -191,8 +191,8 @@
             "code": "equal(ca('cos(60)'), 0.5);",
             "err": {},
             "isRoot": false,
-            "uuid": "2f9bacf7-c6cf-4968-a3f5-0a7b15030819",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "e60d56ac-f6a1-44d8-855d-f2ad20b04463",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -208,8 +208,8 @@
             "code": "equal(ca('tan(45)'), 1);",
             "err": {},
             "isRoot": false,
-            "uuid": "ab741561-c50d-4819-bdda-3f23942442bb",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "1616c313-285b-45f6-999b-af1adaedd835",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -225,8 +225,8 @@
             "code": "equal(ca('cot(45)'), 1);",
             "err": {},
             "isRoot": false,
-            "uuid": "17ee26cb-4155-4c15-b467-17b5f06bfe1d",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "8f6f310a-c061-44ad-8064-7b061fdceaea",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -242,8 +242,8 @@
             "code": "equal(ca('log(100)'), 2);",
             "err": {},
             "isRoot": false,
-            "uuid": "94fc995c-643a-460d-ae27-12beaa52d70c",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "38771a51-e1fd-4075-8747-d816ecaffbb2",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -259,8 +259,8 @@
             "code": "equal(ca('ln(100)'), Math.log(100));",
             "err": {},
             "isRoot": false,
-            "uuid": "4348319d-8285-430e-b4d0-c321cb7543b2",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "e4b51918-2e1d-4f76-8a8e-5314be2854e6",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -276,8 +276,8 @@
             "code": "equal(ca('e'), Math.E);",
             "err": {},
             "isRoot": false,
-            "uuid": "579bc1b4-c9b7-4334-9b2e-897593cbe2f2",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "b3ffb03c-350e-4b91-8a06-788b3480933d",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -293,8 +293,8 @@
             "code": "equal(ca('π'), Math.PI);",
             "err": {},
             "isRoot": false,
-            "uuid": "181c605a-2347-46f6-838c-366a6e054a01",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "a291ea1c-e550-4592-ac92-c0db4b900afb",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           }
         ],
@@ -302,7 +302,7 @@
         "root": false,
         "_timeout": 2000,
         "file": "\\test\\main.test.js",
-        "uuid": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+        "uuid": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
         "fullFile": "F:\\300\\git\\IfeTask\\caculator\\caculator\\test\\main.test.js",
         "passes": [
           {
@@ -318,8 +318,8 @@
             "code": "equal(ca('1+2'), 3);",
             "err": {},
             "isRoot": false,
-            "uuid": "ac0c5645-c50e-4111-b164-cb179823446f",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "c5b44266-d6a2-467d-8097-5212146e4e35",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -335,8 +335,8 @@
             "code": "equal(ca('1-2'), -1);",
             "err": {},
             "isRoot": false,
-            "uuid": "ace8368b-9d97-44f3-a51d-e38fa7ded912",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "26a36832-fd11-40ae-bd9f-709d3f1c4777",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -352,8 +352,8 @@
             "code": "equal(ca('2*2'), 4);",
             "err": {},
             "isRoot": false,
-            "uuid": "a7efcbc8-7e86-46ab-8fc0-d5e30c6dcd1a",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "e5f41ba2-45f4-4553-88b5-a52079c50d1e",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -369,8 +369,8 @@
             "code": "equal(ca('4/3'), +(4 / 3).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "d13e377e-24d9-4777-9125-0e31078e69be",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "e915be3d-9269-4119-b4c2-ea9fc75ec178",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -386,8 +386,8 @@
             "code": "equal(ca('2^3'), 8);",
             "err": {},
             "isRoot": false,
-            "uuid": "07c55e0a-e488-408e-8724-d503eeeac9ae",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "cbf6e6e6-c3c7-4296-8988-2dfed3cbc433",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -403,8 +403,8 @@
             "code": "equal(ca('3%2'), 1);",
             "err": {},
             "isRoot": false,
-            "uuid": "15d98b5b-0a0d-40ab-a1b5-13f5cad92f87",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "09e1494d-bd1d-4348-8a39-372576404496",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -420,15 +420,15 @@
             "code": "equal(ca('abs(-1)'), 1);",
             "err": {},
             "isRoot": false,
-            "uuid": "f6a6f363-1dcf-4194-9594-5d04bb256b5f",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "47352b8a-756b-4d6c-a78d-2dba107c25cd",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
             "title": "均值运算",
             "fullTitle": "简单测试 均值运算",
             "timedOut": false,
-            "duration": 15,
+            "duration": 0,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -437,8 +437,8 @@
             "code": "equal(ca('avg(1,2)'), 1.5);",
             "err": {},
             "isRoot": false,
-            "uuid": "7da0b24c-710c-4fee-9540-d0b6e47a1aa0",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "79666206-85fe-45b0-aa6a-c8e5053f0071",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -454,8 +454,8 @@
             "code": "equal(ca('sin(30)'), 0.5);",
             "err": {},
             "isRoot": false,
-            "uuid": "6507da77-0d7e-48b9-8ac8-38c39d7719e9",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "1bc0f6b3-a20f-4f4a-a993-c9b506dd0296",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -471,8 +471,8 @@
             "code": "equal(ca('cos(60)'), 0.5);",
             "err": {},
             "isRoot": false,
-            "uuid": "2f9bacf7-c6cf-4968-a3f5-0a7b15030819",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "e60d56ac-f6a1-44d8-855d-f2ad20b04463",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -488,8 +488,8 @@
             "code": "equal(ca('tan(45)'), 1);",
             "err": {},
             "isRoot": false,
-            "uuid": "ab741561-c50d-4819-bdda-3f23942442bb",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "1616c313-285b-45f6-999b-af1adaedd835",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -505,8 +505,8 @@
             "code": "equal(ca('cot(45)'), 1);",
             "err": {},
             "isRoot": false,
-            "uuid": "17ee26cb-4155-4c15-b467-17b5f06bfe1d",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "8f6f310a-c061-44ad-8064-7b061fdceaea",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -522,8 +522,8 @@
             "code": "equal(ca('log(100)'), 2);",
             "err": {},
             "isRoot": false,
-            "uuid": "94fc995c-643a-460d-ae27-12beaa52d70c",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "38771a51-e1fd-4075-8747-d816ecaffbb2",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -539,8 +539,8 @@
             "code": "equal(ca('ln(100)'), Math.log(100));",
             "err": {},
             "isRoot": false,
-            "uuid": "4348319d-8285-430e-b4d0-c321cb7543b2",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "e4b51918-2e1d-4f76-8a8e-5314be2854e6",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -556,8 +556,8 @@
             "code": "equal(ca('e'), Math.E);",
             "err": {},
             "isRoot": false,
-            "uuid": "579bc1b4-c9b7-4334-9b2e-897593cbe2f2",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "b3ffb03c-350e-4b91-8a06-788b3480933d",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           },
           {
@@ -573,8 +573,8 @@
             "code": "equal(ca('π'), Math.PI);",
             "err": {},
             "isRoot": false,
-            "uuid": "181c605a-2347-46f6-838c-366a6e054a01",
-            "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+            "uuid": "a291ea1c-e550-4592-ac92-c0db4b900afb",
+            "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
             "skipped": false
           }
         ],
@@ -591,7 +591,7 @@
         "hasFailures": false,
         "hasPending": false,
         "hasSkipped": false,
-        "duration": 15,
+        "duration": 0,
         "rootEmpty": false
       },
       {
@@ -602,7 +602,7 @@
             "title": "int型加法运算",
             "fullTitle": "复合测试 int型加法运算",
             "timedOut": false,
-            "duration": 0,
+            "duration": 16,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -611,8 +611,8 @@
             "code": "var num1, num2;\nfor (var i = 0; i < 10; i++) {\n\tnum1 = Math.random() * 1000 | 0;\n\tnum2 = Math.random() * 1000 | 0;\n\tequal(ca(' ' + num1 + ' + ' + num2 + ' '), +(num1 + num2).toFixed(15));\n}",
             "err": {},
             "isRoot": false,
-            "uuid": "ed8f04fb-347f-4242-a86b-13cae29689eb",
-            "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+            "uuid": "5388540e-eac2-4c55-9ccc-f2a4fe5a1312",
+            "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
             "skipped": false
           },
           {
@@ -628,8 +628,8 @@
             "code": "var num1, num2;\nfor (var i = 0; i < 10; i++) {\n\tnum1 = Math.random();\n\tnum2 = Math.random();\n\tequal(ca(' ' + num1 + ' + ' + num2 + ' '), +(num1 + num2).toFixed(15));\n}",
             "err": {},
             "isRoot": false,
-            "uuid": "6f406e6d-9b73-4dbd-b47b-5f8f03d5476b",
-            "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+            "uuid": "3c803159-6c8a-4e19-bc58-9dcf23fd3fa7",
+            "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
             "skipped": false
           },
           {
@@ -645,8 +645,8 @@
             "code": "var num1 = Math.random(),\n    num2 = Math.random() / Math.random() | 0;\nfor (var i = 0; i < 20; i++) {\n\tequal(ca(num1 + '+' + num2), +(num1 + num2).toFixed(15));\n}",
             "err": {},
             "isRoot": false,
-            "uuid": "2f302db0-e0d5-4828-bb13-77e659f6a886",
-            "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+            "uuid": "ea0f82cc-d291-4578-9e0e-b24fad3152ae",
+            "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
             "skipped": false
           },
           {
@@ -662,8 +662,8 @@
             "code": "var arr;\nfor (var i = 0; i < 10; i++) {\n\tarr = new Array(Math.random() * 10 | 0).fill(Math.random());\n}",
             "err": {},
             "isRoot": false,
-            "uuid": "be24d766-fa84-4ff7-88a3-623e199dbea6",
-            "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+            "uuid": "e9e061f4-d3cd-4a94-ae40-9ef1fd668bdb",
+            "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
             "skipped": false
           },
           {
@@ -679,8 +679,8 @@
             "code": "equal(ca('1+2*3-4/4'), 6);\nequal(ca('5*4-3+6*3%2'), 5 * 4 - 3 + 6 * 3 % 2);\nequal(ca('9.2*3%3-3*5*3-3-9+5/3'), 9.2 * 3 % 3 - 3 * 5 * 3 - 3 - 9 + 5 / 3);\nequal(ca('6*5/32*3-1*3+2*4%3'), 6 * 5 / 32 * 3 - 1 * 3 + 2 * 4 % 3);\nequal(ca('2.32*2.12/32.33+1'), +(2.32 * 2.12 / 32.33 + 1).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "c1954ebf-0be9-4851-9edc-d97b18d925b8",
-            "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+            "uuid": "5070aad0-fddd-4bc7-8d82-70a0f1588b53",
+            "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
             "skipped": false
           },
           {
@@ -696,8 +696,8 @@
             "code": "equal(ca('1^2+2*3-4/4'), 6);\nequal(ca('5*4-3+6*3%2^2'), 5 * 4 - 3 + 6 * 3 % Math.pow(2, 2));\nequal(ca('9.2*3%3-3*5*3^2-3-9+5/3'), 9.2 * 3 % 3 - 3 * 5 * Math.pow(3, 2) - 3 - 9 + 5 / 3);\nequal(ca('6*5/32*3-1^3*3+2*4%3'), 6 * 5 / 32 * 3 - 1 * 3 + 2 * 4 % 3);\nequal(ca('2.32^4*2.12/32.33+1'), +(Math.pow(2.32, 4) * 2.12 / 32.33 + 1).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "7bd43c05-cc5e-49f4-8437-106ccec265a4",
-            "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+            "uuid": "d8022d62-6bd6-48c0-9586-ca77589bdb81",
+            "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
             "skipped": false
           }
         ],
@@ -705,14 +705,14 @@
         "root": false,
         "_timeout": 2000,
         "file": "\\test\\main.test.js",
-        "uuid": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+        "uuid": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
         "fullFile": "F:\\300\\git\\IfeTask\\caculator\\caculator\\test\\main.test.js",
         "passes": [
           {
             "title": "int型加法运算",
             "fullTitle": "复合测试 int型加法运算",
             "timedOut": false,
-            "duration": 0,
+            "duration": 16,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -721,8 +721,8 @@
             "code": "var num1, num2;\nfor (var i = 0; i < 10; i++) {\n\tnum1 = Math.random() * 1000 | 0;\n\tnum2 = Math.random() * 1000 | 0;\n\tequal(ca(' ' + num1 + ' + ' + num2 + ' '), +(num1 + num2).toFixed(15));\n}",
             "err": {},
             "isRoot": false,
-            "uuid": "ed8f04fb-347f-4242-a86b-13cae29689eb",
-            "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+            "uuid": "5388540e-eac2-4c55-9ccc-f2a4fe5a1312",
+            "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
             "skipped": false
           },
           {
@@ -738,8 +738,8 @@
             "code": "var num1, num2;\nfor (var i = 0; i < 10; i++) {\n\tnum1 = Math.random();\n\tnum2 = Math.random();\n\tequal(ca(' ' + num1 + ' + ' + num2 + ' '), +(num1 + num2).toFixed(15));\n}",
             "err": {},
             "isRoot": false,
-            "uuid": "6f406e6d-9b73-4dbd-b47b-5f8f03d5476b",
-            "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+            "uuid": "3c803159-6c8a-4e19-bc58-9dcf23fd3fa7",
+            "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
             "skipped": false
           },
           {
@@ -755,8 +755,8 @@
             "code": "var num1 = Math.random(),\n    num2 = Math.random() / Math.random() | 0;\nfor (var i = 0; i < 20; i++) {\n\tequal(ca(num1 + '+' + num2), +(num1 + num2).toFixed(15));\n}",
             "err": {},
             "isRoot": false,
-            "uuid": "2f302db0-e0d5-4828-bb13-77e659f6a886",
-            "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+            "uuid": "ea0f82cc-d291-4578-9e0e-b24fad3152ae",
+            "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
             "skipped": false
           },
           {
@@ -772,8 +772,8 @@
             "code": "var arr;\nfor (var i = 0; i < 10; i++) {\n\tarr = new Array(Math.random() * 10 | 0).fill(Math.random());\n}",
             "err": {},
             "isRoot": false,
-            "uuid": "be24d766-fa84-4ff7-88a3-623e199dbea6",
-            "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+            "uuid": "e9e061f4-d3cd-4a94-ae40-9ef1fd668bdb",
+            "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
             "skipped": false
           },
           {
@@ -789,8 +789,8 @@
             "code": "equal(ca('1+2*3-4/4'), 6);\nequal(ca('5*4-3+6*3%2'), 5 * 4 - 3 + 6 * 3 % 2);\nequal(ca('9.2*3%3-3*5*3-3-9+5/3'), 9.2 * 3 % 3 - 3 * 5 * 3 - 3 - 9 + 5 / 3);\nequal(ca('6*5/32*3-1*3+2*4%3'), 6 * 5 / 32 * 3 - 1 * 3 + 2 * 4 % 3);\nequal(ca('2.32*2.12/32.33+1'), +(2.32 * 2.12 / 32.33 + 1).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "c1954ebf-0be9-4851-9edc-d97b18d925b8",
-            "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+            "uuid": "5070aad0-fddd-4bc7-8d82-70a0f1588b53",
+            "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
             "skipped": false
           },
           {
@@ -806,8 +806,8 @@
             "code": "equal(ca('1^2+2*3-4/4'), 6);\nequal(ca('5*4-3+6*3%2^2'), 5 * 4 - 3 + 6 * 3 % Math.pow(2, 2));\nequal(ca('9.2*3%3-3*5*3^2-3-9+5/3'), 9.2 * 3 % 3 - 3 * 5 * Math.pow(3, 2) - 3 - 9 + 5 / 3);\nequal(ca('6*5/32*3-1^3*3+2*4%3'), 6 * 5 / 32 * 3 - 1 * 3 + 2 * 4 % 3);\nequal(ca('2.32^4*2.12/32.33+1'), +(Math.pow(2.32, 4) * 2.12 / 32.33 + 1).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "7bd43c05-cc5e-49f4-8437-106ccec265a4",
-            "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+            "uuid": "d8022d62-6bd6-48c0-9586-ca77589bdb81",
+            "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
             "skipped": false
           }
         ],
@@ -824,7 +824,7 @@
         "hasFailures": false,
         "hasPending": false,
         "hasSkipped": false,
-        "duration": 0,
+        "duration": 16,
         "rootEmpty": false
       },
       {
@@ -844,8 +844,8 @@
             "code": "equal(ca('e+1'), +(Math.E + 1).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "41457acb-120b-4ab4-bb51-e47804f12b84",
-            "parentUUID": "ff067aa4-108b-4596-a4f7-0c7f3b3a32fc",
+            "uuid": "ffd92795-067d-4603-aeed-bfb6f8600857",
+            "parentUUID": "e2ccfa4c-7e7e-4ff9-942a-f13e7d241e86",
             "skipped": false
           },
           {
@@ -861,8 +861,8 @@
             "code": "equal(ca('π*e+1'), +(Math.PI * Math.E + 1).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "60b55646-986c-40c4-aeb7-80c333371797",
-            "parentUUID": "ff067aa4-108b-4596-a4f7-0c7f3b3a32fc",
+            "uuid": "39a9473d-f4f5-4174-9f7e-3d39be845b0e",
+            "parentUUID": "e2ccfa4c-7e7e-4ff9-942a-f13e7d241e86",
             "skipped": false
           }
         ],
@@ -870,7 +870,7 @@
         "root": false,
         "_timeout": 2000,
         "file": "\\test\\main.test.js",
-        "uuid": "ff067aa4-108b-4596-a4f7-0c7f3b3a32fc",
+        "uuid": "e2ccfa4c-7e7e-4ff9-942a-f13e7d241e86",
         "fullFile": "F:\\300\\git\\IfeTask\\caculator\\caculator\\test\\main.test.js",
         "passes": [
           {
@@ -886,8 +886,8 @@
             "code": "equal(ca('e+1'), +(Math.E + 1).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "41457acb-120b-4ab4-bb51-e47804f12b84",
-            "parentUUID": "ff067aa4-108b-4596-a4f7-0c7f3b3a32fc",
+            "uuid": "ffd92795-067d-4603-aeed-bfb6f8600857",
+            "parentUUID": "e2ccfa4c-7e7e-4ff9-942a-f13e7d241e86",
             "skipped": false
           },
           {
@@ -903,8 +903,8 @@
             "code": "equal(ca('π*e+1'), +(Math.PI * Math.E + 1).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "60b55646-986c-40c4-aeb7-80c333371797",
-            "parentUUID": "ff067aa4-108b-4596-a4f7-0c7f3b3a32fc",
+            "uuid": "39a9473d-f4f5-4174-9f7e-3d39be845b0e",
+            "parentUUID": "e2ccfa4c-7e7e-4ff9-942a-f13e7d241e86",
             "skipped": false
           }
         ],
@@ -941,8 +941,8 @@
             "code": "equal(ca('pow(2,3) + pow(2,3)'), Math.pow(2, 3) + Math.pow(2, 3));",
             "err": {},
             "isRoot": false,
-            "uuid": "ea67e0d2-cb89-478a-aaea-1b3f90e54dae",
-            "parentUUID": "9be80e16-2f60-4156-a274-7d1c7a133e88",
+            "uuid": "7e8e99d1-e156-4206-b7af-f5e294fb6c0d",
+            "parentUUID": "0f020774-ca6c-4a18-a84f-ed6d470ceb02",
             "skipped": false
           },
           {
@@ -958,8 +958,8 @@
             "code": "equal(ca('pow(pow(2,3),3)'), Math.pow(Math.pow(2, 3), 3));",
             "err": {},
             "isRoot": false,
-            "uuid": "3ba87d37-f685-4fce-9ba4-944dd2ff2061",
-            "parentUUID": "9be80e16-2f60-4156-a274-7d1c7a133e88",
+            "uuid": "1d7f2506-284b-46fd-a26f-9593c098589d",
+            "parentUUID": "0f020774-ca6c-4a18-a84f-ed6d470ceb02",
             "skipped": false
           }
         ],
@@ -967,7 +967,7 @@
         "root": false,
         "_timeout": 2000,
         "file": "\\test\\main.test.js",
-        "uuid": "9be80e16-2f60-4156-a274-7d1c7a133e88",
+        "uuid": "0f020774-ca6c-4a18-a84f-ed6d470ceb02",
         "fullFile": "F:\\300\\git\\IfeTask\\caculator\\caculator\\test\\main.test.js",
         "passes": [
           {
@@ -983,8 +983,8 @@
             "code": "equal(ca('pow(2,3) + pow(2,3)'), Math.pow(2, 3) + Math.pow(2, 3));",
             "err": {},
             "isRoot": false,
-            "uuid": "ea67e0d2-cb89-478a-aaea-1b3f90e54dae",
-            "parentUUID": "9be80e16-2f60-4156-a274-7d1c7a133e88",
+            "uuid": "7e8e99d1-e156-4206-b7af-f5e294fb6c0d",
+            "parentUUID": "0f020774-ca6c-4a18-a84f-ed6d470ceb02",
             "skipped": false
           },
           {
@@ -1000,8 +1000,8 @@
             "code": "equal(ca('pow(pow(2,3),3)'), Math.pow(Math.pow(2, 3), 3));",
             "err": {},
             "isRoot": false,
-            "uuid": "3ba87d37-f685-4fce-9ba4-944dd2ff2061",
-            "parentUUID": "9be80e16-2f60-4156-a274-7d1c7a133e88",
+            "uuid": "1d7f2506-284b-46fd-a26f-9593c098589d",
+            "parentUUID": "0f020774-ca6c-4a18-a84f-ed6d470ceb02",
             "skipped": false
           }
         ],
@@ -1038,8 +1038,8 @@
             "code": "equal(ca('0.1+0.2'), 0.3);",
             "err": {},
             "isRoot": false,
-            "uuid": "d0beec81-6389-483d-874b-9ffb8536925a",
-            "parentUUID": "5ac266a1-838c-416c-88e5-c1c63ebbbe06",
+            "uuid": "09360b72-677d-4ae4-868a-83f54f6be5c6",
+            "parentUUID": "c94874a2-a8e0-4831-8fd0-13ab931be975",
             "skipped": false
           },
           {
@@ -1055,8 +1055,8 @@
             "code": "equal(ca('  0.1   +   0.5   '), 0.6);",
             "err": {},
             "isRoot": false,
-            "uuid": "ca4b7338-a324-41b5-9c3f-7e6b5d018afb",
-            "parentUUID": "5ac266a1-838c-416c-88e5-c1c63ebbbe06",
+            "uuid": "697adc45-6cb6-4361-bb81-6eb2618de318",
+            "parentUUID": "c94874a2-a8e0-4831-8fd0-13ab931be975",
             "skipped": false
           },
           {
@@ -1072,8 +1072,8 @@
             "code": "equal(ca('2^3^4'), Math.pow(Math.pow(2, 3), 4));",
             "err": {},
             "isRoot": false,
-            "uuid": "7fc38a8d-533d-4d7e-b322-629957e44608",
-            "parentUUID": "5ac266a1-838c-416c-88e5-c1c63ebbbe06",
+            "uuid": "8ab922fc-10e0-42f5-9b8b-19c2bc1de8df",
+            "parentUUID": "c94874a2-a8e0-4831-8fd0-13ab931be975",
             "skipped": false
           },
           {
@@ -1089,8 +1089,8 @@
             "code": "equal(ca('(2+1)^(3-1)^4'), Math.pow(Math.pow(2 + 1, 3 - 1), 4));",
             "err": {},
             "isRoot": false,
-            "uuid": "91169a35-9a97-4eaf-9389-faf2b696f6b1",
-            "parentUUID": "5ac266a1-838c-416c-88e5-c1c63ebbbe06",
+            "uuid": "145754b6-a747-4c9f-81e7-919adf3255a6",
+            "parentUUID": "c94874a2-a8e0-4831-8fd0-13ab931be975",
             "skipped": false
           }
         ],
@@ -1098,7 +1098,7 @@
         "root": false,
         "_timeout": 2000,
         "file": "\\test\\main.test.js",
-        "uuid": "5ac266a1-838c-416c-88e5-c1c63ebbbe06",
+        "uuid": "c94874a2-a8e0-4831-8fd0-13ab931be975",
         "fullFile": "F:\\300\\git\\IfeTask\\caculator\\caculator\\test\\main.test.js",
         "passes": [
           {
@@ -1114,8 +1114,8 @@
             "code": "equal(ca('0.1+0.2'), 0.3);",
             "err": {},
             "isRoot": false,
-            "uuid": "d0beec81-6389-483d-874b-9ffb8536925a",
-            "parentUUID": "5ac266a1-838c-416c-88e5-c1c63ebbbe06",
+            "uuid": "09360b72-677d-4ae4-868a-83f54f6be5c6",
+            "parentUUID": "c94874a2-a8e0-4831-8fd0-13ab931be975",
             "skipped": false
           },
           {
@@ -1131,8 +1131,8 @@
             "code": "equal(ca('  0.1   +   0.5   '), 0.6);",
             "err": {},
             "isRoot": false,
-            "uuid": "ca4b7338-a324-41b5-9c3f-7e6b5d018afb",
-            "parentUUID": "5ac266a1-838c-416c-88e5-c1c63ebbbe06",
+            "uuid": "697adc45-6cb6-4361-bb81-6eb2618de318",
+            "parentUUID": "c94874a2-a8e0-4831-8fd0-13ab931be975",
             "skipped": false
           },
           {
@@ -1148,8 +1148,8 @@
             "code": "equal(ca('2^3^4'), Math.pow(Math.pow(2, 3), 4));",
             "err": {},
             "isRoot": false,
-            "uuid": "7fc38a8d-533d-4d7e-b322-629957e44608",
-            "parentUUID": "5ac266a1-838c-416c-88e5-c1c63ebbbe06",
+            "uuid": "8ab922fc-10e0-42f5-9b8b-19c2bc1de8df",
+            "parentUUID": "c94874a2-a8e0-4831-8fd0-13ab931be975",
             "skipped": false
           },
           {
@@ -1165,8 +1165,8 @@
             "code": "equal(ca('(2+1)^(3-1)^4'), Math.pow(Math.pow(2 + 1, 3 - 1), 4));",
             "err": {},
             "isRoot": false,
-            "uuid": "91169a35-9a97-4eaf-9389-faf2b696f6b1",
-            "parentUUID": "5ac266a1-838c-416c-88e5-c1c63ebbbe06",
+            "uuid": "145754b6-a747-4c9f-81e7-919adf3255a6",
+            "parentUUID": "c94874a2-a8e0-4831-8fd0-13ab931be975",
             "skipped": false
           }
         ],
@@ -1203,8 +1203,8 @@
             "code": "equal(ca('1 + 3 + 2^(3^2)'), 516);",
             "err": {},
             "isRoot": false,
-            "uuid": "2bbecc65-8b66-4064-8194-5a26d27103f7",
-            "parentUUID": "98147607-1fcd-421d-875f-cc4db6651776",
+            "uuid": "bb12c216-7c71-43d6-a6f6-2c017fe89d57",
+            "parentUUID": "c04cac9a-6681-4bf4-a9f2-01561da164b5",
             "skipped": false
           },
           {
@@ -1220,8 +1220,8 @@
             "code": "equal(ca('1 + 3 + sin(5 *(8 + 1))'), +(1 + 3 + Math.sin(5 * (8 + 1) * Math.PI / 180)).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "061d9d3e-665e-4714-a05a-938341670cb5",
-            "parentUUID": "98147607-1fcd-421d-875f-cc4db6651776",
+            "uuid": "20e98e37-99ef-4886-9d7a-dcd559c21e7e",
+            "parentUUID": "c04cac9a-6681-4bf4-a9f2-01561da164b5",
             "skipped": false
           }
         ],
@@ -1229,7 +1229,7 @@
         "root": false,
         "_timeout": 2000,
         "file": "\\test\\main.test.js",
-        "uuid": "98147607-1fcd-421d-875f-cc4db6651776",
+        "uuid": "c04cac9a-6681-4bf4-a9f2-01561da164b5",
         "fullFile": "F:\\300\\git\\IfeTask\\caculator\\caculator\\test\\main.test.js",
         "passes": [
           {
@@ -1245,8 +1245,8 @@
             "code": "equal(ca('1 + 3 + 2^(3^2)'), 516);",
             "err": {},
             "isRoot": false,
-            "uuid": "2bbecc65-8b66-4064-8194-5a26d27103f7",
-            "parentUUID": "98147607-1fcd-421d-875f-cc4db6651776",
+            "uuid": "bb12c216-7c71-43d6-a6f6-2c017fe89d57",
+            "parentUUID": "c04cac9a-6681-4bf4-a9f2-01561da164b5",
             "skipped": false
           },
           {
@@ -1262,8 +1262,8 @@
             "code": "equal(ca('1 + 3 + sin(5 *(8 + 1))'), +(1 + 3 + Math.sin(5 * (8 + 1) * Math.PI / 180)).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "061d9d3e-665e-4714-a05a-938341670cb5",
-            "parentUUID": "98147607-1fcd-421d-875f-cc4db6651776",
+            "uuid": "20e98e37-99ef-4886-9d7a-dcd559c21e7e",
+            "parentUUID": "c04cac9a-6681-4bf4-a9f2-01561da164b5",
             "skipped": false
           }
         ],
@@ -1288,7 +1288,7 @@
     "pending": [],
     "root": true,
     "_timeout": 2000,
-    "uuid": "546c16cf-1564-44ea-af69-f235d9bf73f7",
+    "uuid": "8f0d97ba-295f-4c21-b4f2-40716a140238",
     "fullFile": "",
     "file": "",
     "passes": [],
@@ -1322,8 +1322,8 @@
       "code": "equal(ca('1+2'), 3);",
       "err": {},
       "isRoot": false,
-      "uuid": "ac0c5645-c50e-4111-b164-cb179823446f",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "c5b44266-d6a2-467d-8097-5212146e4e35",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -1339,8 +1339,8 @@
       "code": "equal(ca('1-2'), -1);",
       "err": {},
       "isRoot": false,
-      "uuid": "ace8368b-9d97-44f3-a51d-e38fa7ded912",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "26a36832-fd11-40ae-bd9f-709d3f1c4777",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -1356,8 +1356,8 @@
       "code": "equal(ca('2*2'), 4);",
       "err": {},
       "isRoot": false,
-      "uuid": "a7efcbc8-7e86-46ab-8fc0-d5e30c6dcd1a",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "e5f41ba2-45f4-4553-88b5-a52079c50d1e",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -1373,8 +1373,8 @@
       "code": "equal(ca('4/3'), +(4 / 3).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "d13e377e-24d9-4777-9125-0e31078e69be",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "e915be3d-9269-4119-b4c2-ea9fc75ec178",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -1390,8 +1390,8 @@
       "code": "equal(ca('2^3'), 8);",
       "err": {},
       "isRoot": false,
-      "uuid": "07c55e0a-e488-408e-8724-d503eeeac9ae",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "cbf6e6e6-c3c7-4296-8988-2dfed3cbc433",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -1407,8 +1407,8 @@
       "code": "equal(ca('3%2'), 1);",
       "err": {},
       "isRoot": false,
-      "uuid": "15d98b5b-0a0d-40ab-a1b5-13f5cad92f87",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "09e1494d-bd1d-4348-8a39-372576404496",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -1424,15 +1424,15 @@
       "code": "equal(ca('abs(-1)'), 1);",
       "err": {},
       "isRoot": false,
-      "uuid": "f6a6f363-1dcf-4194-9594-5d04bb256b5f",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "47352b8a-756b-4d6c-a78d-2dba107c25cd",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
       "title": "均值运算",
       "fullTitle": "简单测试 均值运算",
       "timedOut": false,
-      "duration": 15,
+      "duration": 0,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1441,8 +1441,8 @@
       "code": "equal(ca('avg(1,2)'), 1.5);",
       "err": {},
       "isRoot": false,
-      "uuid": "7da0b24c-710c-4fee-9540-d0b6e47a1aa0",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "79666206-85fe-45b0-aa6a-c8e5053f0071",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -1458,8 +1458,8 @@
       "code": "equal(ca('sin(30)'), 0.5);",
       "err": {},
       "isRoot": false,
-      "uuid": "6507da77-0d7e-48b9-8ac8-38c39d7719e9",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "1bc0f6b3-a20f-4f4a-a993-c9b506dd0296",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -1475,8 +1475,8 @@
       "code": "equal(ca('cos(60)'), 0.5);",
       "err": {},
       "isRoot": false,
-      "uuid": "2f9bacf7-c6cf-4968-a3f5-0a7b15030819",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "e60d56ac-f6a1-44d8-855d-f2ad20b04463",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -1492,8 +1492,8 @@
       "code": "equal(ca('tan(45)'), 1);",
       "err": {},
       "isRoot": false,
-      "uuid": "ab741561-c50d-4819-bdda-3f23942442bb",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "1616c313-285b-45f6-999b-af1adaedd835",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -1509,8 +1509,8 @@
       "code": "equal(ca('cot(45)'), 1);",
       "err": {},
       "isRoot": false,
-      "uuid": "17ee26cb-4155-4c15-b467-17b5f06bfe1d",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "8f6f310a-c061-44ad-8064-7b061fdceaea",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -1526,8 +1526,8 @@
       "code": "equal(ca('log(100)'), 2);",
       "err": {},
       "isRoot": false,
-      "uuid": "94fc995c-643a-460d-ae27-12beaa52d70c",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "38771a51-e1fd-4075-8747-d816ecaffbb2",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -1543,8 +1543,8 @@
       "code": "equal(ca('ln(100)'), Math.log(100));",
       "err": {},
       "isRoot": false,
-      "uuid": "4348319d-8285-430e-b4d0-c321cb7543b2",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "e4b51918-2e1d-4f76-8a8e-5314be2854e6",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -1560,8 +1560,8 @@
       "code": "equal(ca('e'), Math.E);",
       "err": {},
       "isRoot": false,
-      "uuid": "579bc1b4-c9b7-4334-9b2e-897593cbe2f2",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "b3ffb03c-350e-4b91-8a06-788b3480933d",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -1577,15 +1577,15 @@
       "code": "equal(ca('π'), Math.PI);",
       "err": {},
       "isRoot": false,
-      "uuid": "181c605a-2347-46f6-838c-366a6e054a01",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "a291ea1c-e550-4592-ac92-c0db4b900afb",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
       "title": "int型加法运算",
       "fullTitle": "复合测试 int型加法运算",
       "timedOut": false,
-      "duration": 0,
+      "duration": 16,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1594,8 +1594,8 @@
       "code": "var num1, num2;\nfor (var i = 0; i < 10; i++) {\n\tnum1 = Math.random() * 1000 | 0;\n\tnum2 = Math.random() * 1000 | 0;\n\tequal(ca(' ' + num1 + ' + ' + num2 + ' '), +(num1 + num2).toFixed(15));\n}",
       "err": {},
       "isRoot": false,
-      "uuid": "ed8f04fb-347f-4242-a86b-13cae29689eb",
-      "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+      "uuid": "5388540e-eac2-4c55-9ccc-f2a4fe5a1312",
+      "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
       "skipped": false
     },
     {
@@ -1611,8 +1611,8 @@
       "code": "var num1, num2;\nfor (var i = 0; i < 10; i++) {\n\tnum1 = Math.random();\n\tnum2 = Math.random();\n\tequal(ca(' ' + num1 + ' + ' + num2 + ' '), +(num1 + num2).toFixed(15));\n}",
       "err": {},
       "isRoot": false,
-      "uuid": "6f406e6d-9b73-4dbd-b47b-5f8f03d5476b",
-      "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+      "uuid": "3c803159-6c8a-4e19-bc58-9dcf23fd3fa7",
+      "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
       "skipped": false
     },
     {
@@ -1628,8 +1628,8 @@
       "code": "var num1 = Math.random(),\n    num2 = Math.random() / Math.random() | 0;\nfor (var i = 0; i < 20; i++) {\n\tequal(ca(num1 + '+' + num2), +(num1 + num2).toFixed(15));\n}",
       "err": {},
       "isRoot": false,
-      "uuid": "2f302db0-e0d5-4828-bb13-77e659f6a886",
-      "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+      "uuid": "ea0f82cc-d291-4578-9e0e-b24fad3152ae",
+      "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
       "skipped": false
     },
     {
@@ -1645,8 +1645,8 @@
       "code": "var arr;\nfor (var i = 0; i < 10; i++) {\n\tarr = new Array(Math.random() * 10 | 0).fill(Math.random());\n}",
       "err": {},
       "isRoot": false,
-      "uuid": "be24d766-fa84-4ff7-88a3-623e199dbea6",
-      "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+      "uuid": "e9e061f4-d3cd-4a94-ae40-9ef1fd668bdb",
+      "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
       "skipped": false
     },
     {
@@ -1662,8 +1662,8 @@
       "code": "equal(ca('1+2*3-4/4'), 6);\nequal(ca('5*4-3+6*3%2'), 5 * 4 - 3 + 6 * 3 % 2);\nequal(ca('9.2*3%3-3*5*3-3-9+5/3'), 9.2 * 3 % 3 - 3 * 5 * 3 - 3 - 9 + 5 / 3);\nequal(ca('6*5/32*3-1*3+2*4%3'), 6 * 5 / 32 * 3 - 1 * 3 + 2 * 4 % 3);\nequal(ca('2.32*2.12/32.33+1'), +(2.32 * 2.12 / 32.33 + 1).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "c1954ebf-0be9-4851-9edc-d97b18d925b8",
-      "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+      "uuid": "5070aad0-fddd-4bc7-8d82-70a0f1588b53",
+      "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
       "skipped": false
     },
     {
@@ -1679,8 +1679,8 @@
       "code": "equal(ca('1^2+2*3-4/4'), 6);\nequal(ca('5*4-3+6*3%2^2'), 5 * 4 - 3 + 6 * 3 % Math.pow(2, 2));\nequal(ca('9.2*3%3-3*5*3^2-3-9+5/3'), 9.2 * 3 % 3 - 3 * 5 * Math.pow(3, 2) - 3 - 9 + 5 / 3);\nequal(ca('6*5/32*3-1^3*3+2*4%3'), 6 * 5 / 32 * 3 - 1 * 3 + 2 * 4 % 3);\nequal(ca('2.32^4*2.12/32.33+1'), +(Math.pow(2.32, 4) * 2.12 / 32.33 + 1).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "7bd43c05-cc5e-49f4-8437-106ccec265a4",
-      "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+      "uuid": "d8022d62-6bd6-48c0-9586-ca77589bdb81",
+      "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
       "skipped": false
     },
     {
@@ -1696,8 +1696,8 @@
       "code": "equal(ca('e+1'), +(Math.E + 1).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "41457acb-120b-4ab4-bb51-e47804f12b84",
-      "parentUUID": "ff067aa4-108b-4596-a4f7-0c7f3b3a32fc",
+      "uuid": "ffd92795-067d-4603-aeed-bfb6f8600857",
+      "parentUUID": "e2ccfa4c-7e7e-4ff9-942a-f13e7d241e86",
       "skipped": false
     },
     {
@@ -1713,8 +1713,8 @@
       "code": "equal(ca('π*e+1'), +(Math.PI * Math.E + 1).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "60b55646-986c-40c4-aeb7-80c333371797",
-      "parentUUID": "ff067aa4-108b-4596-a4f7-0c7f3b3a32fc",
+      "uuid": "39a9473d-f4f5-4174-9f7e-3d39be845b0e",
+      "parentUUID": "e2ccfa4c-7e7e-4ff9-942a-f13e7d241e86",
       "skipped": false
     },
     {
@@ -1730,8 +1730,8 @@
       "code": "equal(ca('pow(2,3) + pow(2,3)'), Math.pow(2, 3) + Math.pow(2, 3));",
       "err": {},
       "isRoot": false,
-      "uuid": "ea67e0d2-cb89-478a-aaea-1b3f90e54dae",
-      "parentUUID": "9be80e16-2f60-4156-a274-7d1c7a133e88",
+      "uuid": "7e8e99d1-e156-4206-b7af-f5e294fb6c0d",
+      "parentUUID": "0f020774-ca6c-4a18-a84f-ed6d470ceb02",
       "skipped": false
     },
     {
@@ -1747,8 +1747,8 @@
       "code": "equal(ca('pow(pow(2,3),3)'), Math.pow(Math.pow(2, 3), 3));",
       "err": {},
       "isRoot": false,
-      "uuid": "3ba87d37-f685-4fce-9ba4-944dd2ff2061",
-      "parentUUID": "9be80e16-2f60-4156-a274-7d1c7a133e88",
+      "uuid": "1d7f2506-284b-46fd-a26f-9593c098589d",
+      "parentUUID": "0f020774-ca6c-4a18-a84f-ed6d470ceb02",
       "skipped": false
     },
     {
@@ -1764,8 +1764,8 @@
       "code": "equal(ca('0.1+0.2'), 0.3);",
       "err": {},
       "isRoot": false,
-      "uuid": "d0beec81-6389-483d-874b-9ffb8536925a",
-      "parentUUID": "5ac266a1-838c-416c-88e5-c1c63ebbbe06",
+      "uuid": "09360b72-677d-4ae4-868a-83f54f6be5c6",
+      "parentUUID": "c94874a2-a8e0-4831-8fd0-13ab931be975",
       "skipped": false
     },
     {
@@ -1781,8 +1781,8 @@
       "code": "equal(ca('  0.1   +   0.5   '), 0.6);",
       "err": {},
       "isRoot": false,
-      "uuid": "ca4b7338-a324-41b5-9c3f-7e6b5d018afb",
-      "parentUUID": "5ac266a1-838c-416c-88e5-c1c63ebbbe06",
+      "uuid": "697adc45-6cb6-4361-bb81-6eb2618de318",
+      "parentUUID": "c94874a2-a8e0-4831-8fd0-13ab931be975",
       "skipped": false
     },
     {
@@ -1798,8 +1798,8 @@
       "code": "equal(ca('2^3^4'), Math.pow(Math.pow(2, 3), 4));",
       "err": {},
       "isRoot": false,
-      "uuid": "7fc38a8d-533d-4d7e-b322-629957e44608",
-      "parentUUID": "5ac266a1-838c-416c-88e5-c1c63ebbbe06",
+      "uuid": "8ab922fc-10e0-42f5-9b8b-19c2bc1de8df",
+      "parentUUID": "c94874a2-a8e0-4831-8fd0-13ab931be975",
       "skipped": false
     },
     {
@@ -1815,8 +1815,8 @@
       "code": "equal(ca('(2+1)^(3-1)^4'), Math.pow(Math.pow(2 + 1, 3 - 1), 4));",
       "err": {},
       "isRoot": false,
-      "uuid": "91169a35-9a97-4eaf-9389-faf2b696f6b1",
-      "parentUUID": "5ac266a1-838c-416c-88e5-c1c63ebbbe06",
+      "uuid": "145754b6-a747-4c9f-81e7-919adf3255a6",
+      "parentUUID": "c94874a2-a8e0-4831-8fd0-13ab931be975",
       "skipped": false
     },
     {
@@ -1832,8 +1832,8 @@
       "code": "equal(ca('1 + 3 + 2^(3^2)'), 516);",
       "err": {},
       "isRoot": false,
-      "uuid": "2bbecc65-8b66-4064-8194-5a26d27103f7",
-      "parentUUID": "98147607-1fcd-421d-875f-cc4db6651776",
+      "uuid": "bb12c216-7c71-43d6-a6f6-2c017fe89d57",
+      "parentUUID": "c04cac9a-6681-4bf4-a9f2-01561da164b5",
       "skipped": false
     },
     {
@@ -1849,8 +1849,8 @@
       "code": "equal(ca('1 + 3 + sin(5 *(8 + 1))'), +(1 + 3 + Math.sin(5 * (8 + 1) * Math.PI / 180)).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "061d9d3e-665e-4714-a05a-938341670cb5",
-      "parentUUID": "98147607-1fcd-421d-875f-cc4db6651776",
+      "uuid": "20e98e37-99ef-4886-9d7a-dcd559c21e7e",
+      "parentUUID": "c04cac9a-6681-4bf4-a9f2-01561da164b5",
       "skipped": false
     }
   ],
@@ -1869,8 +1869,8 @@
       "code": "equal(ca('1+2'), 3);",
       "err": {},
       "isRoot": false,
-      "uuid": "ac0c5645-c50e-4111-b164-cb179823446f",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "c5b44266-d6a2-467d-8097-5212146e4e35",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -1886,8 +1886,8 @@
       "code": "equal(ca('1-2'), -1);",
       "err": {},
       "isRoot": false,
-      "uuid": "ace8368b-9d97-44f3-a51d-e38fa7ded912",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "26a36832-fd11-40ae-bd9f-709d3f1c4777",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -1903,8 +1903,8 @@
       "code": "equal(ca('2*2'), 4);",
       "err": {},
       "isRoot": false,
-      "uuid": "a7efcbc8-7e86-46ab-8fc0-d5e30c6dcd1a",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "e5f41ba2-45f4-4553-88b5-a52079c50d1e",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -1920,8 +1920,8 @@
       "code": "equal(ca('4/3'), +(4 / 3).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "d13e377e-24d9-4777-9125-0e31078e69be",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "e915be3d-9269-4119-b4c2-ea9fc75ec178",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -1937,8 +1937,8 @@
       "code": "equal(ca('2^3'), 8);",
       "err": {},
       "isRoot": false,
-      "uuid": "07c55e0a-e488-408e-8724-d503eeeac9ae",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "cbf6e6e6-c3c7-4296-8988-2dfed3cbc433",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -1954,8 +1954,8 @@
       "code": "equal(ca('3%2'), 1);",
       "err": {},
       "isRoot": false,
-      "uuid": "15d98b5b-0a0d-40ab-a1b5-13f5cad92f87",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "09e1494d-bd1d-4348-8a39-372576404496",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -1971,15 +1971,15 @@
       "code": "equal(ca('abs(-1)'), 1);",
       "err": {},
       "isRoot": false,
-      "uuid": "f6a6f363-1dcf-4194-9594-5d04bb256b5f",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "47352b8a-756b-4d6c-a78d-2dba107c25cd",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
       "title": "均值运算",
       "fullTitle": "简单测试 均值运算",
       "timedOut": false,
-      "duration": 15,
+      "duration": 0,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1988,8 +1988,8 @@
       "code": "equal(ca('avg(1,2)'), 1.5);",
       "err": {},
       "isRoot": false,
-      "uuid": "7da0b24c-710c-4fee-9540-d0b6e47a1aa0",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "79666206-85fe-45b0-aa6a-c8e5053f0071",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -2005,8 +2005,8 @@
       "code": "equal(ca('sin(30)'), 0.5);",
       "err": {},
       "isRoot": false,
-      "uuid": "6507da77-0d7e-48b9-8ac8-38c39d7719e9",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "1bc0f6b3-a20f-4f4a-a993-c9b506dd0296",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -2022,8 +2022,8 @@
       "code": "equal(ca('cos(60)'), 0.5);",
       "err": {},
       "isRoot": false,
-      "uuid": "2f9bacf7-c6cf-4968-a3f5-0a7b15030819",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "e60d56ac-f6a1-44d8-855d-f2ad20b04463",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -2039,8 +2039,8 @@
       "code": "equal(ca('tan(45)'), 1);",
       "err": {},
       "isRoot": false,
-      "uuid": "ab741561-c50d-4819-bdda-3f23942442bb",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "1616c313-285b-45f6-999b-af1adaedd835",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -2056,8 +2056,8 @@
       "code": "equal(ca('cot(45)'), 1);",
       "err": {},
       "isRoot": false,
-      "uuid": "17ee26cb-4155-4c15-b467-17b5f06bfe1d",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "8f6f310a-c061-44ad-8064-7b061fdceaea",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -2073,8 +2073,8 @@
       "code": "equal(ca('log(100)'), 2);",
       "err": {},
       "isRoot": false,
-      "uuid": "94fc995c-643a-460d-ae27-12beaa52d70c",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "38771a51-e1fd-4075-8747-d816ecaffbb2",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -2090,8 +2090,8 @@
       "code": "equal(ca('ln(100)'), Math.log(100));",
       "err": {},
       "isRoot": false,
-      "uuid": "4348319d-8285-430e-b4d0-c321cb7543b2",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "e4b51918-2e1d-4f76-8a8e-5314be2854e6",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -2107,8 +2107,8 @@
       "code": "equal(ca('e'), Math.E);",
       "err": {},
       "isRoot": false,
-      "uuid": "579bc1b4-c9b7-4334-9b2e-897593cbe2f2",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "b3ffb03c-350e-4b91-8a06-788b3480933d",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
@@ -2124,15 +2124,15 @@
       "code": "equal(ca('π'), Math.PI);",
       "err": {},
       "isRoot": false,
-      "uuid": "181c605a-2347-46f6-838c-366a6e054a01",
-      "parentUUID": "70c27b1a-d48b-48b4-905f-e6a86f93deb3",
+      "uuid": "a291ea1c-e550-4592-ac92-c0db4b900afb",
+      "parentUUID": "427612f3-baaa-4d3a-9161-f15bc1d48b39",
       "skipped": false
     },
     {
       "title": "int型加法运算",
       "fullTitle": "复合测试 int型加法运算",
       "timedOut": false,
-      "duration": 0,
+      "duration": 16,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -2141,8 +2141,8 @@
       "code": "var num1, num2;\nfor (var i = 0; i < 10; i++) {\n\tnum1 = Math.random() * 1000 | 0;\n\tnum2 = Math.random() * 1000 | 0;\n\tequal(ca(' ' + num1 + ' + ' + num2 + ' '), +(num1 + num2).toFixed(15));\n}",
       "err": {},
       "isRoot": false,
-      "uuid": "ed8f04fb-347f-4242-a86b-13cae29689eb",
-      "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+      "uuid": "5388540e-eac2-4c55-9ccc-f2a4fe5a1312",
+      "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
       "skipped": false
     },
     {
@@ -2158,8 +2158,8 @@
       "code": "var num1, num2;\nfor (var i = 0; i < 10; i++) {\n\tnum1 = Math.random();\n\tnum2 = Math.random();\n\tequal(ca(' ' + num1 + ' + ' + num2 + ' '), +(num1 + num2).toFixed(15));\n}",
       "err": {},
       "isRoot": false,
-      "uuid": "6f406e6d-9b73-4dbd-b47b-5f8f03d5476b",
-      "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+      "uuid": "3c803159-6c8a-4e19-bc58-9dcf23fd3fa7",
+      "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
       "skipped": false
     },
     {
@@ -2175,8 +2175,8 @@
       "code": "var num1 = Math.random(),\n    num2 = Math.random() / Math.random() | 0;\nfor (var i = 0; i < 20; i++) {\n\tequal(ca(num1 + '+' + num2), +(num1 + num2).toFixed(15));\n}",
       "err": {},
       "isRoot": false,
-      "uuid": "2f302db0-e0d5-4828-bb13-77e659f6a886",
-      "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+      "uuid": "ea0f82cc-d291-4578-9e0e-b24fad3152ae",
+      "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
       "skipped": false
     },
     {
@@ -2192,8 +2192,8 @@
       "code": "var arr;\nfor (var i = 0; i < 10; i++) {\n\tarr = new Array(Math.random() * 10 | 0).fill(Math.random());\n}",
       "err": {},
       "isRoot": false,
-      "uuid": "be24d766-fa84-4ff7-88a3-623e199dbea6",
-      "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+      "uuid": "e9e061f4-d3cd-4a94-ae40-9ef1fd668bdb",
+      "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
       "skipped": false
     },
     {
@@ -2209,8 +2209,8 @@
       "code": "equal(ca('1+2*3-4/4'), 6);\nequal(ca('5*4-3+6*3%2'), 5 * 4 - 3 + 6 * 3 % 2);\nequal(ca('9.2*3%3-3*5*3-3-9+5/3'), 9.2 * 3 % 3 - 3 * 5 * 3 - 3 - 9 + 5 / 3);\nequal(ca('6*5/32*3-1*3+2*4%3'), 6 * 5 / 32 * 3 - 1 * 3 + 2 * 4 % 3);\nequal(ca('2.32*2.12/32.33+1'), +(2.32 * 2.12 / 32.33 + 1).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "c1954ebf-0be9-4851-9edc-d97b18d925b8",
-      "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+      "uuid": "5070aad0-fddd-4bc7-8d82-70a0f1588b53",
+      "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
       "skipped": false
     },
     {
@@ -2226,8 +2226,8 @@
       "code": "equal(ca('1^2+2*3-4/4'), 6);\nequal(ca('5*4-3+6*3%2^2'), 5 * 4 - 3 + 6 * 3 % Math.pow(2, 2));\nequal(ca('9.2*3%3-3*5*3^2-3-9+5/3'), 9.2 * 3 % 3 - 3 * 5 * Math.pow(3, 2) - 3 - 9 + 5 / 3);\nequal(ca('6*5/32*3-1^3*3+2*4%3'), 6 * 5 / 32 * 3 - 1 * 3 + 2 * 4 % 3);\nequal(ca('2.32^4*2.12/32.33+1'), +(Math.pow(2.32, 4) * 2.12 / 32.33 + 1).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "7bd43c05-cc5e-49f4-8437-106ccec265a4",
-      "parentUUID": "1ea6e498-e84e-4700-946e-9dbfdca75125",
+      "uuid": "d8022d62-6bd6-48c0-9586-ca77589bdb81",
+      "parentUUID": "1bd1e280-b0fe-4488-abd6-e8b941af6cb4",
       "skipped": false
     },
     {
@@ -2243,8 +2243,8 @@
       "code": "equal(ca('e+1'), +(Math.E + 1).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "41457acb-120b-4ab4-bb51-e47804f12b84",
-      "parentUUID": "ff067aa4-108b-4596-a4f7-0c7f3b3a32fc",
+      "uuid": "ffd92795-067d-4603-aeed-bfb6f8600857",
+      "parentUUID": "e2ccfa4c-7e7e-4ff9-942a-f13e7d241e86",
       "skipped": false
     },
     {
@@ -2260,8 +2260,8 @@
       "code": "equal(ca('π*e+1'), +(Math.PI * Math.E + 1).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "60b55646-986c-40c4-aeb7-80c333371797",
-      "parentUUID": "ff067aa4-108b-4596-a4f7-0c7f3b3a32fc",
+      "uuid": "39a9473d-f4f5-4174-9f7e-3d39be845b0e",
+      "parentUUID": "e2ccfa4c-7e7e-4ff9-942a-f13e7d241e86",
       "skipped": false
     },
     {
@@ -2277,8 +2277,8 @@
       "code": "equal(ca('pow(2,3) + pow(2,3)'), Math.pow(2, 3) + Math.pow(2, 3));",
       "err": {},
       "isRoot": false,
-      "uuid": "ea67e0d2-cb89-478a-aaea-1b3f90e54dae",
-      "parentUUID": "9be80e16-2f60-4156-a274-7d1c7a133e88",
+      "uuid": "7e8e99d1-e156-4206-b7af-f5e294fb6c0d",
+      "parentUUID": "0f020774-ca6c-4a18-a84f-ed6d470ceb02",
       "skipped": false
     },
     {
@@ -2294,8 +2294,8 @@
       "code": "equal(ca('pow(pow(2,3),3)'), Math.pow(Math.pow(2, 3), 3));",
       "err": {},
       "isRoot": false,
-      "uuid": "3ba87d37-f685-4fce-9ba4-944dd2ff2061",
-      "parentUUID": "9be80e16-2f60-4156-a274-7d1c7a133e88",
+      "uuid": "1d7f2506-284b-46fd-a26f-9593c098589d",
+      "parentUUID": "0f020774-ca6c-4a18-a84f-ed6d470ceb02",
       "skipped": false
     },
     {
@@ -2311,8 +2311,8 @@
       "code": "equal(ca('0.1+0.2'), 0.3);",
       "err": {},
       "isRoot": false,
-      "uuid": "d0beec81-6389-483d-874b-9ffb8536925a",
-      "parentUUID": "5ac266a1-838c-416c-88e5-c1c63ebbbe06",
+      "uuid": "09360b72-677d-4ae4-868a-83f54f6be5c6",
+      "parentUUID": "c94874a2-a8e0-4831-8fd0-13ab931be975",
       "skipped": false
     },
     {
@@ -2328,8 +2328,8 @@
       "code": "equal(ca('  0.1   +   0.5   '), 0.6);",
       "err": {},
       "isRoot": false,
-      "uuid": "ca4b7338-a324-41b5-9c3f-7e6b5d018afb",
-      "parentUUID": "5ac266a1-838c-416c-88e5-c1c63ebbbe06",
+      "uuid": "697adc45-6cb6-4361-bb81-6eb2618de318",
+      "parentUUID": "c94874a2-a8e0-4831-8fd0-13ab931be975",
       "skipped": false
     },
     {
@@ -2345,8 +2345,8 @@
       "code": "equal(ca('2^3^4'), Math.pow(Math.pow(2, 3), 4));",
       "err": {},
       "isRoot": false,
-      "uuid": "7fc38a8d-533d-4d7e-b322-629957e44608",
-      "parentUUID": "5ac266a1-838c-416c-88e5-c1c63ebbbe06",
+      "uuid": "8ab922fc-10e0-42f5-9b8b-19c2bc1de8df",
+      "parentUUID": "c94874a2-a8e0-4831-8fd0-13ab931be975",
       "skipped": false
     },
     {
@@ -2362,8 +2362,8 @@
       "code": "equal(ca('(2+1)^(3-1)^4'), Math.pow(Math.pow(2 + 1, 3 - 1), 4));",
       "err": {},
       "isRoot": false,
-      "uuid": "91169a35-9a97-4eaf-9389-faf2b696f6b1",
-      "parentUUID": "5ac266a1-838c-416c-88e5-c1c63ebbbe06",
+      "uuid": "145754b6-a747-4c9f-81e7-919adf3255a6",
+      "parentUUID": "c94874a2-a8e0-4831-8fd0-13ab931be975",
       "skipped": false
     },
     {
@@ -2379,8 +2379,8 @@
       "code": "equal(ca('1 + 3 + 2^(3^2)'), 516);",
       "err": {},
       "isRoot": false,
-      "uuid": "2bbecc65-8b66-4064-8194-5a26d27103f7",
-      "parentUUID": "98147607-1fcd-421d-875f-cc4db6651776",
+      "uuid": "bb12c216-7c71-43d6-a6f6-2c017fe89d57",
+      "parentUUID": "c04cac9a-6681-4bf4-a9f2-01561da164b5",
       "skipped": false
     },
     {
@@ -2396,8 +2396,8 @@
       "code": "equal(ca('1 + 3 + sin(5 *(8 + 1))'), +(1 + 3 + Math.sin(5 * (8 + 1) * Math.PI / 180)).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "061d9d3e-665e-4714-a05a-938341670cb5",
-      "parentUUID": "98147607-1fcd-421d-875f-cc4db6651776",
+      "uuid": "20e98e37-99ef-4886-9d7a-dcd559c21e7e",
+      "parentUUID": "c04cac9a-6681-4bf4-a9f2-01561da164b5",
       "skipped": false
     }
   ],
