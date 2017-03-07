@@ -219,7 +219,7 @@ function caculate(str) {
 							opStack.shift();
 							break;
 						} else {
-							throw(`168 new Error`);
+							throw(`unknow Error`);
 						}
 					}
 
@@ -353,57 +353,59 @@ const validVarible = (name, value) => {
 		return /^[a-z_]\w*$/i.test(name) ? [83] : [82];
 	}
 };
+
 const createVarible = (name, value) => constants[name] = +value;
 
-
-
 const validMethod = (name, body) => {
-	if(!(/^[a-z_]\w*$/i.test(name))) {
-		return '不合法的方法名';
+	if(!(/^[a-z][a-z\d]*$/i.test(name))) {
+		return [85];
 	} else {
-		if(replaceMethods[name]) return '已经有同名常量或方法存在';
+		if(util[name]) return [84];
 		else {
 			// 让方法体跑一遍，就知道其是不是合法的了
 			// 这个replace可能与createMethod中的replace重复了
 			// 某种意义上可以封装一下后复用
 			let res = caculate(body.replace(/\s/g, '')
-									.replace(/\b[a-z_]\w*(?!\(|\w)/g, v => replaceMethods[v] ? replaceMethods[v] : 1));
+									.replace(/\b[a-z][a-z\d]*(?!\(|\w)/ig, v => util[v] ? util[v] : 1));
 			return typeof res === 'number' ? true : res;
 		}
 	}
 };
 
+
 const createMethod = (name, body) => {
 
 	// 外部自定义方法调用
-	var arr = [];
+	var arr = [],
+		isArgStrict = status.isArgStrict;
 	body = body.replace(/\s/g, '')
-				.replace(/\b[a-z_]\w*(?!\(|\w)/g, v => {
-					if(replaceMethods[v]) return replaceMethods[v];
+				.replace(/\b[a-z][a-z\d]*(?!\(|\w)/g, v => {
+					if(util[v]) return util[v];
 					else {
 						if(arr.indexOf(v) === -1) arr.push(v); 
 						return v;
 					}
 				});
-	argNum[name] = arr.length;
+
 	function fn(...arg) {
-		console.log(body.replace(RegExp(`\\b(${arr.join('|')})\\b`, 'g'), v => arg[arr.indexOf(v)] || v))
-		return body.replace(RegExp(`\\b(${arr.join('|')})\\b`, 'g'), v => arg[arr.indexOf(v)] || v);
+		var res;
+		if(arg.length < arr.length) {
+			throw new Error(`21, ${key}`);
+		} else if(arg.length > arr.length) {
+			if(isArgStrict) throw new Error(`22, ${key}`);
+		}
+		res = caculate(body.replace(RegExp(`\\b(${arr.join('|')})\\b`, 'g'), v => arg[arr.indexOf(v)] || v));
+		if(typeof res !== 'number') throw new Error(`unknow error at custom method`);
+		return res;
 	}
-	replaceMethods[name] = bindArgNum(fn, arr.length, name);
+	util[name] = fn;
 };
-
-
-
-
-
-
 
 
 // 将 改变模式 和 创建新方法或常量 的接口挂载在caculate函数上
 caculate.create = {
-	// validMethod: validMethod,
-	// createMethod: createMethod,
+	validMethod: validMethod,
+	createMethod: createMethod,
 	validVarible: validVarible,
 	createVarible: createVarible
 }
