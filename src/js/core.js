@@ -46,7 +46,6 @@ function caculate(str) {
 		for(var pos = 0; pos < len; pos++) {
 
 			curChar = str[pos];
-			console.log(curChar);
 
 			// 如果是π
 			// 其前面只能为运算符, 右括号, 逗号, 或者什么都不跟, 遇到其他情况就报错。
@@ -239,6 +238,9 @@ function caculate(str) {
 						}
 					}
 					opStack.shift();
+				} else if (lastValue === ',') {
+					console.log(lastValue, spaceLen)
+					throw new Error(`15, ，, ${pos - spaceLen - 1}`);
 				} else {
 					throw new Error(`16, ${curChar}, ${pos}`);
 				}
@@ -318,24 +320,26 @@ function caculate(str) {
 		} else if(isNum(lastValue)) {
 			valueStack.unshift(lastValue);
 		} else if(isMethodName(lastValue) || lastValue === 'π') {
-			if(!isConstant(lastValue))throw new Error(`17, ${lastValue}, ${pos - 1 - spaceLen}`);
+			if(!isConstant(lastValue))throw new Error(`31, ${lastValue}, ${pos - spaceLen - lastValue.length}`);
 			else valueStack.unshift(constants[lastValue]);
 		}
 
-		while(opStack.length && !(/\(,/.test(opStack[0]))) {
+		while(opStack.length && !(/\(|,/.test(opStack[0]))) {
 			let num2 = valueStack.shift(), 
 				num1 = valueStack.shift();
 			valueStack.unshift(op[opStack.shift()](num1, num2));
 		}
 
 		if(!opStack.length && valueStack.length === 1) return valueStack[0];
-		else throw new Error(`71`);
+		else {
+			if(/^\s*$/.test(str)) throw new Error(`12`);
+			throw new Error(`71`);
+		}
 	}
 
 	try {
 		res = innerCaculate(str);
 	} catch(e) {
-		console.log(e.message);
 		res = e.message.split(/\s*,\s*/);
 	}
 	// 如果结果是数字则返回数字， 如果结果是错误字符串，则解析成数组

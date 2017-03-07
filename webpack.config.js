@@ -17,9 +17,9 @@ module.exports = {
 				loader: 'babel-loader'
 			}
 		]
-	}
-	// plugins: [
-	// 	new webpack.optimize.UglifyJsPlugin(),
-	// 	new webpack.BannerPlugin('A simple caculator created by yuyang')
-	// ]
+	},
+	plugins: [
+		new webpack.optimize.UglifyJsPlugin(),
+		new webpack.BannerPlugin('A simple caculator created by yuyang')
+	]
 };

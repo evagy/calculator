@@ -15,7 +15,7 @@ function dealCacu(input, resultDiv) {
 		else res = `您的运算结果为：${res}`;
 	} else {
 		errorIndex = res[2];
-		res = `${errorMessage[res[0]]} : ${res[1]}`;
+		res = `${errorMessage[res[0]]} ${res[1] !== undefined ? (': '+res[1]) :''}`;
 		isSuccess = false;
 	}
 	showRes(resultDiv, isSuccess, res, errorIndex);
@@ -56,7 +56,6 @@ function showRes(resultDiv, isSuccess, message, errorIndex) {
 		resultDiv.removeClass('correct').addClass('error');
 		if(errorIndex !== undefined) {
 			let offset = $('.content-question').offset();
-			console.log(offset);
 			$('#arrow').css({
 				left: offset.left + 34 + errorIndex*11,
 				marginTop: offset.top - 30
