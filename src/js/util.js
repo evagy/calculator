@@ -95,11 +95,10 @@ let trigonometry = [	'sin',
 // wrap util method 
 // 1. check arguments number
 // 2. if the method is trigonometry function, judge the status.isAngle
-for(let key in argNumbers) {	
+for(let key in argNumbers) {
 	let oriFn = util[key],
 		argNum = argNumbers[key],
 		isTrigonometry;
-	
 	util[key] = function(...arg) {
 		let len = arg.length,
 			isAngle = status.isAngle,

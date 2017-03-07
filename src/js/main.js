@@ -1,4 +1,5 @@
-let cacu = require('./core.js');
+let cacu = require('./core.js'),
+	errorMessage = require('./errorMessage.js');
 
 var create = cacu.create;
 
@@ -11,6 +12,7 @@ function dealCacu(input, resultDiv) {
 		else if(/Infinity/.test(res.toString())) res = '无穷：'+res.toString().replace(/Infinity/, 'n');
 		else res = `您的运算结果为：${res}`;
 	} else {
+		res = `${res[2]}处错误：${errorMessage[res[0]]} : ${res[1]}`;
 		isSuccess = false;
 	}
 	showRes(resultDiv, isSuccess, res);
@@ -25,6 +27,7 @@ function createConstant(input, resultDiv) {
 		create.createVarible(name, value);
 		showRes(resultDiv, true, `创建成功！常量名:${name} 常量值:${value}`);
 	} else {
+		res = errorMessage[res];
 		showRes(resultDiv, false, res);
 	}
 }
@@ -36,8 +39,9 @@ function createMethod(input, resultDiv) {
 		res = create.validMethod(name, value);
 	if(res === true) {
 		create.createMethod(name, value);
-		showRes(resultDiv, true, `创建成功！常量名:${name} 常量值:${value}`);
+		showRes(resultDiv, true, `创建成功！方法名:${name} 方法体:${value}`);
 	} else {
+		res = errorMessage[res];
 		showRes(resultDiv, false, res);
 	}
 }

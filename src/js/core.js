@@ -342,7 +342,7 @@ function caculate(str) {
 	// 第一个元素表示错误代码
 	// 第二个元素表示错误字符或方法常量名
 	// 第三个元素表示错误所在的位置索引
-	return typeof res === 'Object' ? res : +(+res).toFixed(15);
+	return typeof res === 'object' ? res : +(+res).toFixed(15);
 }
 
 // 如果合法，返回true， 反之返回包含错误信息的字符串
@@ -367,7 +367,7 @@ const validMethod = (name, body) => {
 			// 某种意义上可以封装一下后复用
 			let res = caculate(body.replace(/\s/g, '')
 									.replace(/\b[a-z][a-z\d]*(?!\(|\w)/ig, v => util[v] ? util[v] : 1));
-			return typeof res === 'number' ? true : res;
+			return typeof res === 'number' ? true : [86];
 		}
 	}
 };
@@ -390,9 +390,9 @@ const createMethod = (name, body) => {
 	function fn(...arg) {
 		var res;
 		if(arg.length < arr.length) {
-			throw new Error(`21, ${key}`);
+			throw new Error(`21, ${name}`);
 		} else if(arg.length > arr.length) {
-			if(isArgStrict) throw new Error(`22, ${key}`);
+			if(isArgStrict) throw new Error(`22, ${name}`);
 		}
 		res = caculate(body.replace(RegExp(`\\b(${arr.join('|')})\\b`, 'g'), v => arg[arr.indexOf(v)] || v));
 		if(typeof res !== 'number') throw new Error(`unknow error at custom method`);
