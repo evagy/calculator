@@ -1,6 +1,6 @@
 let assert = require('assert'),
-	ca = require('../src/js/caculate.js'),
-	create = ca.create;
+	ca = require('../src/js/core.js');
+	//create = ca.create;
 
 let equal = assert.strictEqual;
 
@@ -102,6 +102,16 @@ describe('复合测试', () => {
 			equal(ca('2.32^4*2.12/32.33+1'), +(Math.pow(2.32,4)*2.12/32.33+1).toFixed(15));
 		})
 });
+
+describe('常量测试', () => {
+	it(' 简单常量', () => {
+		equal(ca('e+1'), +(Math.E+1).toFixed(15));
+	});
+	it(' 复合常量', () => {
+		equal(ca('π*e+1'), +(Math.PI*Math.E+1).toFixed(15));
+	});
+});
+
 describe('方法测试', () => {
 	it(' 简单方法', () => {
 		equal(ca('pow(2,3) + pow(2,3)'), Math.pow(2,3)+Math.pow(2,3));
@@ -124,32 +134,42 @@ describe('边界情况测试', () => {
 		equal(ca('(2+1)^(3-1)^4'), Math.pow(Math.pow((2+1), (3-1)),4));
 	});
 });
-describe('不合法情况测试', () => {
-	it('输入包含非法字符', () => {
-		equal(typeof ca(':1+1'), 'string');
-		equal(typeof ca('1~1'), 'string');
-		equal(typeof ca('/'), 'string');
-		equal(typeof ca('[1+1'), 'string');
-		equal(typeof ca('[1+1]]'), 'string');
-		equal(typeof ca('1|1'), 'string');
-		equal(typeof ca('1++1'), 'string');
-		equal(typeof ca('1--'), 'string');
-		equal(typeof ca('1++'), 'string');
-		equal(typeof ca('1 2 3'), 'string');
+
+describe('复杂情况', () => {
+	it('复合幂运算', () => {
+		equal(ca('1 + 3 + 2^(3^2)'), 516);
 	});
-	it('输入包含不存在的方法或常量', () => {
-		equal(typeof ca('a'), 'string');
-		equal(typeof ca('method()'), 'string');
-		equal(typeof ca('test'), 'string');
-		equal(typeof ca('e()'), 'string');
-		equal(typeof ca('mmm'), 'string');
+	it('复合幂运算', () => {
+		equal(ca('1 + 3 + sin(5 *(8 + 1))'), +(1 + 3 + Math.sin(5 *(8 + 1) * Math.PI / 180)).toFixed(15));
 	});
-	it('常量错误的当方法使用', () => {
-		equal(typeof ca('e()'), 'string');
-		equal(typeof ca('π()'), 'string');
-	});
-	it('方法错误的当常量使用', () => {
-		equal(typeof ca('pow'), 'string');
-		equal(typeof ca('sin'), 'string');
-	});
-});
+})
+
+// describe('不合法情况测试', () => {
+// 	it('输入包含非法字符', () => {
+// 		equal(typeof ca(':1+1'), 'string');
+// 		equal(typeof ca('1~1'), 'string');
+// 		equal(typeof ca('/'), 'string');
+// 		equal(typeof ca('[1+1'), 'string');
+// 		equal(typeof ca('[1+1]]'), 'string');
+// 		equal(typeof ca('1|1'), 'string');
+// 		equal(typeof ca('1++1'), 'string');
+// 		equal(typeof ca('1--'), 'string');
+// 		equal(typeof ca('1++'), 'string');
+// 		equal(typeof ca('1 2 3'), 'string');
+// 	});
+// 	it('输入包含不存在的方法或常量', () => {
+// 		equal(typeof ca('a'), 'string');
+// 		equal(typeof ca('method()'), 'string');
+// 		equal(typeof ca('test'), 'string');
+// 		equal(typeof ca('e()'), 'string');
+// 		equal(typeof ca('mmm'), 'string');
+// 	});
+// 	it('常量错误的当方法使用', () => {
+// 		equal(typeof ca('e()'), 'string');
+// 		equal(typeof ca('π()'), 'string');
+// 	});
+// 	it('方法错误的当常量使用', () => {
+// 		equal(typeof ca('pow'), 'string');
+// 		equal(typeof ca('sin'), 'string');
+// 	});
+// });

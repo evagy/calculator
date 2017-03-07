@@ -39,7 +39,7 @@ gulp.task('cssTask', _ => {
 });
 
 gulp.task('jsTask', _ => {
-	return gulp.src('public/js/main.js')
+	return gulp.src('public/js/core.js')
 	    .pipe(webpack(require('./webpack.config.js')))
 		.pipe(gulp.dest('public/js'));
 });

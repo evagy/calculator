@@ -92,7 +92,7 @@ function caculate (str) {
 // 管理计算器的状态 
 let status = {
 	isAngle: true,
-	argModel: 0,
+	isArgStrict: false,
 	allowVar: false
 };
 
