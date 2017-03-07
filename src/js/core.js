@@ -357,6 +357,47 @@ const createVarible = (name, value) => constants[name] = +value;
 
 
 
+const validMethod = (name, body) => {
+	if(!(/^[a-z_]\w*$/i.test(name))) {
+		return '不合法的方法名';
+	} else {
+		if(replaceMethods[name]) return '已经有同名常量或方法存在';
+		else {
+			// 让方法体跑一遍，就知道其是不是合法的了
+			// 这个replace可能与createMethod中的replace重复了
+			// 某种意义上可以封装一下后复用
+			let res = caculate(body.replace(/\s/g, '')
+									.replace(/\b[a-z_]\w*(?!\(|\w)/g, v => replaceMethods[v] ? replaceMethods[v] : 1));
+			return typeof res === 'number' ? true : res;
+		}
+	}
+};
+
+const createMethod = (name, body) => {
+
+	// 外部自定义方法调用
+	var arr = [];
+	body = body.replace(/\s/g, '')
+				.replace(/\b[a-z_]\w*(?!\(|\w)/g, v => {
+					if(replaceMethods[v]) return replaceMethods[v];
+					else {
+						if(arr.indexOf(v) === -1) arr.push(v); 
+						return v;
+					}
+				});
+	argNum[name] = arr.length;
+	function fn(...arg) {
+		console.log(body.replace(RegExp(`\\b(${arr.join('|')})\\b`, 'g'), v => arg[arr.indexOf(v)] || v))
+		return body.replace(RegExp(`\\b(${arr.join('|')})\\b`, 'g'), v => arg[arr.indexOf(v)] || v);
+	}
+	replaceMethods[name] = bindArgNum(fn, arr.length, name);
+};
+
+
+
+
+
+
 
 
 // 将 改变模式 和 创建新方法或常量 的接口挂载在caculate函数上
