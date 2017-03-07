@@ -35,7 +35,7 @@ let isMethod = n => !!util[n];
 // 主要处理逻辑, 传入运算字符串，返回运算结果 或者 包含错误信息的数组。
 function caculate(str) {
 	let res;
-	function innerCaculate(str, start = 0) {
+	function innerCaculate(str) {
 		let len = str.length,
 			opStack = [],
 			valueStack = [],
@@ -46,7 +46,7 @@ function caculate(str) {
 		for(var pos = 0; pos < len; pos++) {
 
 			curChar = str[pos];
-
+			console.log(curChar);
 
 			// 如果是π
 			// 其前面只能为运算符, 右括号, 逗号, 或者什么都不跟, 遇到其他情况就报错。
@@ -307,7 +307,7 @@ function caculate(str) {
 			// 如果以上都不是，那只能直接报错了。
 			// 错误代码11, 表示无法识别的字符
 			else {
-				throw new Error(`11, ${cur}, ${start+pos}`);
+				throw new Error(`11, ${curChar}, ${pos}`);
 			}
 
 
@@ -335,6 +335,7 @@ function caculate(str) {
 	try {
 		res = innerCaculate(str);
 	} catch(e) {
+		console.log(e.message);
 		res = e.message.split(/\s*,\s*/);
 	}
 	// 如果结果是数字则返回数字， 如果结果是错误字符串，则解析成数组

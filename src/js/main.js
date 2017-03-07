@@ -15,7 +15,7 @@ function dealCacu(input, resultDiv) {
 		else res = `您的运算结果为：${res}`;
 	} else {
 		errorIndex = res[2];
-		res = `索引${res[2]}处错误：${errorMessage[res[0]]} : ${res[1]}`;
+		res = `${errorMessage[res[0]]} : ${res[1]}`;
 		isSuccess = false;
 	}
 	showRes(resultDiv, isSuccess, res, errorIndex);
