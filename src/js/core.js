@@ -224,13 +224,6 @@ function caculate(str) {
 						}
 					}
 
-					// // 去掉左括号后，计算之前的运算---- 此思路错误，不应该计算之前的运算，会影响优先级
-					// while( opStack.length && !(/\(|,/.test(opStack[0]))) {
-					// 	let num2 = valueStack.shift(), 
-					// 		num1 = valueStack.shift();
-					// 	valueStack.unshift(op[opStack.shift()](num1, num2));
-					// }
-
 				} else if(lastValue === '(') {
 					if(opStack[0].length !== 1) {
 						try {

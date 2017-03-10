@@ -1,14 +1,14 @@
 {
   "stats": {
-    "suites": 6,
-    "tests": 33,
-    "passes": 33,
+    "suites": 7,
+    "tests": 41,
+    "passes": 41,
     "pending": 0,
     "failures": 0,
-    "start": "2017-03-09T15:59:53.166Z",
-    "end": "2017-03-09T15:59:53.181Z",
-    "duration": 15,
-    "testsRegistered": 33,
+    "start": "2017-03-10T05:28:49.186Z",
+    "end": "2017-03-10T05:28:49.217Z",
+    "duration": 31,
+    "testsRegistered": 41,
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
@@ -38,8 +38,8 @@
             "code": "equal(ca('1+2'), 3);",
             "err": {},
             "isRoot": false,
-            "uuid": "ef56e471-ed73-43f1-9dc0-32dce515bcd7",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "3dcd5edb-13eb-4df4-b8b1-248cd161a6da",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -55,8 +55,8 @@
             "code": "equal(ca('1-2'), -1);",
             "err": {},
             "isRoot": false,
-            "uuid": "9466e416-2eb0-49de-81c5-a1383e01dda6",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "10c9bc58-db88-485b-9960-834c1d31874d",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -72,15 +72,15 @@
             "code": "equal(ca('2*2'), 4);",
             "err": {},
             "isRoot": false,
-            "uuid": "9aab82da-2570-4aba-b05c-733b2fef593b",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "de41a285-7758-469d-be66-30edf583f393",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
             "title": "除法",
             "fullTitle": "简单测试 除法",
             "timedOut": false,
-            "duration": 0,
+            "duration": 16,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -89,8 +89,8 @@
             "code": "equal(ca('4/3'), +(4 / 3).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "1880de2a-1425-4116-a1f6-1190ff87cbec",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "5d45fde0-9df9-419b-bf90-d2aea26aeea9",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -106,8 +106,8 @@
             "code": "equal(ca('2^3'), 8);",
             "err": {},
             "isRoot": false,
-            "uuid": "9aa87ba2-cbcd-4efb-994c-dd3e6fe0fbc9",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "95177a90-397b-4570-93b4-b3dc1093a835",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -123,8 +123,8 @@
             "code": "equal(ca('3%2'), 1);",
             "err": {},
             "isRoot": false,
-            "uuid": "88bb8989-10bf-48c7-b1fa-07dbd7182792",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "2579820f-0e16-44e1-8434-bcde9def8647",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -140,8 +140,8 @@
             "code": "equal(ca('abs(-1)'), 1);",
             "err": {},
             "isRoot": false,
-            "uuid": "b2a940ed-5252-44cb-8508-fd27a0e91815",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "08b8b870-37f4-4fd4-a5a6-48e7b20923ab",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -157,8 +157,8 @@
             "code": "equal(ca('avg(1,2)'), 1.5);",
             "err": {},
             "isRoot": false,
-            "uuid": "65be0010-3278-4bd8-8af8-ddeeadc90ad5",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "944e12d2-bd72-4d6a-a0fb-4bdab8e70ce1",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -174,8 +174,8 @@
             "code": "equal(ca('sin(30)'), 0.5);",
             "err": {},
             "isRoot": false,
-            "uuid": "6d87d42a-6c9b-4653-b5fa-ec4dc69e6fc9",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "f5907c4e-c4b9-4f8b-a814-37c8bd9b0111",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -191,8 +191,8 @@
             "code": "equal(ca('cos(60)'), 0.5);",
             "err": {},
             "isRoot": false,
-            "uuid": "35a8b96e-1e35-4b7d-a0f5-f3cfcca0807d",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "af1b2a74-4ba6-4cfb-869a-085cdd8fb4e7",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -208,8 +208,8 @@
             "code": "equal(ca('tan(45)'), 1);",
             "err": {},
             "isRoot": false,
-            "uuid": "70100416-6ede-4250-b095-9602b7e1772e",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "fa427fe0-7415-454c-958a-7d353ff18306",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -225,8 +225,8 @@
             "code": "equal(ca('cot(45)'), 1);",
             "err": {},
             "isRoot": false,
-            "uuid": "306e8e6d-4cc0-4912-a979-7e9f187f368b",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "16af1b4d-2722-4fb0-9216-a920a508d9c7",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -242,8 +242,8 @@
             "code": "equal(ca('log(100)'), 2);",
             "err": {},
             "isRoot": false,
-            "uuid": "688ce4e5-afcf-4e07-8028-012303a52692",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "398935d5-8898-4249-a6db-82ad5abbe140",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -259,8 +259,8 @@
             "code": "equal(ca('ln(100)'), Math.log(100));",
             "err": {},
             "isRoot": false,
-            "uuid": "b6529b7b-be7f-4c62-af60-db5ca720f55f",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "c2fd0226-48e9-48df-8f9b-4aede4f6762e",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -276,8 +276,8 @@
             "code": "equal(ca('e'), Math.E);",
             "err": {},
             "isRoot": false,
-            "uuid": "3bfbfb6a-08c6-436b-92ba-c6895cb4a704",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "4490f429-95ea-4c98-ae3a-6c530ef456af",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -293,8 +293,8 @@
             "code": "equal(ca('π'), Math.PI);",
             "err": {},
             "isRoot": false,
-            "uuid": "2ead8fa8-35fa-4e23-ba11-d9bd4d722fec",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "6123cd5a-a5c0-4d9b-bc05-3785c7c566af",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           }
         ],
@@ -302,7 +302,7 @@
         "root": false,
         "_timeout": 2000,
         "file": "\\test\\main.test.js",
-        "uuid": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+        "uuid": "d04edbcd-8aea-472d-8538-308fd00e60d7",
         "fullFile": "F:\\300\\git\\IfeTask\\caculator\\caculator\\test\\main.test.js",
         "passes": [
           {
@@ -318,8 +318,8 @@
             "code": "equal(ca('1+2'), 3);",
             "err": {},
             "isRoot": false,
-            "uuid": "ef56e471-ed73-43f1-9dc0-32dce515bcd7",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "3dcd5edb-13eb-4df4-b8b1-248cd161a6da",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -335,8 +335,8 @@
             "code": "equal(ca('1-2'), -1);",
             "err": {},
             "isRoot": false,
-            "uuid": "9466e416-2eb0-49de-81c5-a1383e01dda6",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "10c9bc58-db88-485b-9960-834c1d31874d",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -352,15 +352,15 @@
             "code": "equal(ca('2*2'), 4);",
             "err": {},
             "isRoot": false,
-            "uuid": "9aab82da-2570-4aba-b05c-733b2fef593b",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "de41a285-7758-469d-be66-30edf583f393",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
             "title": "除法",
             "fullTitle": "简单测试 除法",
             "timedOut": false,
-            "duration": 0,
+            "duration": 16,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -369,8 +369,8 @@
             "code": "equal(ca('4/3'), +(4 / 3).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "1880de2a-1425-4116-a1f6-1190ff87cbec",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "5d45fde0-9df9-419b-bf90-d2aea26aeea9",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -386,8 +386,8 @@
             "code": "equal(ca('2^3'), 8);",
             "err": {},
             "isRoot": false,
-            "uuid": "9aa87ba2-cbcd-4efb-994c-dd3e6fe0fbc9",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "95177a90-397b-4570-93b4-b3dc1093a835",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -403,8 +403,8 @@
             "code": "equal(ca('3%2'), 1);",
             "err": {},
             "isRoot": false,
-            "uuid": "88bb8989-10bf-48c7-b1fa-07dbd7182792",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "2579820f-0e16-44e1-8434-bcde9def8647",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -420,8 +420,8 @@
             "code": "equal(ca('abs(-1)'), 1);",
             "err": {},
             "isRoot": false,
-            "uuid": "b2a940ed-5252-44cb-8508-fd27a0e91815",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "08b8b870-37f4-4fd4-a5a6-48e7b20923ab",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -437,8 +437,8 @@
             "code": "equal(ca('avg(1,2)'), 1.5);",
             "err": {},
             "isRoot": false,
-            "uuid": "65be0010-3278-4bd8-8af8-ddeeadc90ad5",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "944e12d2-bd72-4d6a-a0fb-4bdab8e70ce1",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -454,8 +454,8 @@
             "code": "equal(ca('sin(30)'), 0.5);",
             "err": {},
             "isRoot": false,
-            "uuid": "6d87d42a-6c9b-4653-b5fa-ec4dc69e6fc9",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "f5907c4e-c4b9-4f8b-a814-37c8bd9b0111",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -471,8 +471,8 @@
             "code": "equal(ca('cos(60)'), 0.5);",
             "err": {},
             "isRoot": false,
-            "uuid": "35a8b96e-1e35-4b7d-a0f5-f3cfcca0807d",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "af1b2a74-4ba6-4cfb-869a-085cdd8fb4e7",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -488,8 +488,8 @@
             "code": "equal(ca('tan(45)'), 1);",
             "err": {},
             "isRoot": false,
-            "uuid": "70100416-6ede-4250-b095-9602b7e1772e",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "fa427fe0-7415-454c-958a-7d353ff18306",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -505,8 +505,8 @@
             "code": "equal(ca('cot(45)'), 1);",
             "err": {},
             "isRoot": false,
-            "uuid": "306e8e6d-4cc0-4912-a979-7e9f187f368b",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "16af1b4d-2722-4fb0-9216-a920a508d9c7",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -522,8 +522,8 @@
             "code": "equal(ca('log(100)'), 2);",
             "err": {},
             "isRoot": false,
-            "uuid": "688ce4e5-afcf-4e07-8028-012303a52692",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "398935d5-8898-4249-a6db-82ad5abbe140",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -539,8 +539,8 @@
             "code": "equal(ca('ln(100)'), Math.log(100));",
             "err": {},
             "isRoot": false,
-            "uuid": "b6529b7b-be7f-4c62-af60-db5ca720f55f",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "c2fd0226-48e9-48df-8f9b-4aede4f6762e",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -556,8 +556,8 @@
             "code": "equal(ca('e'), Math.E);",
             "err": {},
             "isRoot": false,
-            "uuid": "3bfbfb6a-08c6-436b-92ba-c6895cb4a704",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "4490f429-95ea-4c98-ae3a-6c530ef456af",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           },
           {
@@ -573,8 +573,8 @@
             "code": "equal(ca('π'), Math.PI);",
             "err": {},
             "isRoot": false,
-            "uuid": "2ead8fa8-35fa-4e23-ba11-d9bd4d722fec",
-            "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+            "uuid": "6123cd5a-a5c0-4d9b-bc05-3785c7c566af",
+            "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
             "skipped": false
           }
         ],
@@ -591,7 +591,7 @@
         "hasFailures": false,
         "hasPending": false,
         "hasSkipped": false,
-        "duration": 0,
+        "duration": 16,
         "rootEmpty": false
       },
       {
@@ -611,8 +611,8 @@
             "code": "var num1, num2;\nfor (var i = 0; i < 10; i++) {\n\tnum1 = Math.random() * 1000 | 0;\n\tnum2 = Math.random() * 1000 | 0;\n\tequal(ca(' ' + num1 + ' + ' + num2 + ' '), +(num1 + num2).toFixed(15));\n}",
             "err": {},
             "isRoot": false,
-            "uuid": "4a234cce-2700-4025-ad6e-edf1761d26ee",
-            "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+            "uuid": "59d1ed08-59e0-49c8-a576-d0c19e707fa8",
+            "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
             "skipped": false
           },
           {
@@ -628,8 +628,8 @@
             "code": "var num1, num2;\nfor (var i = 0; i < 10; i++) {\n\tnum1 = Math.random();\n\tnum2 = Math.random();\n\tequal(ca(' ' + num1 + ' + ' + num2 + ' '), +(num1 + num2).toFixed(15));\n}",
             "err": {},
             "isRoot": false,
-            "uuid": "8b419712-335b-4fa6-b21b-42af562c3cd8",
-            "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+            "uuid": "02a2859a-425a-43f7-bdb0-b2c70d32e3da",
+            "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
             "skipped": false
           },
           {
@@ -645,8 +645,8 @@
             "code": "var num1 = Math.random(),\n    num2 = Math.random() / Math.random() | 0;\nfor (var i = 0; i < 20; i++) {\n\tequal(ca(num1 + '+' + num2), +(num1 + num2).toFixed(15));\n}",
             "err": {},
             "isRoot": false,
-            "uuid": "cca91b57-2257-4b18-8df5-151708692d3e",
-            "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+            "uuid": "1e8b0336-e422-46b5-b077-12007d7369dd",
+            "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
             "skipped": false
           },
           {
@@ -662,8 +662,8 @@
             "code": "var arr;\nfor (var i = 0; i < 10; i++) {\n\tarr = new Array(Math.random() * 10 | 0).fill(Math.random());\n}",
             "err": {},
             "isRoot": false,
-            "uuid": "b70eba95-c9fe-4181-8605-07e389dbe5d0",
-            "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+            "uuid": "ff772f29-a292-4933-8835-b017b5da9ce9",
+            "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
             "skipped": false
           },
           {
@@ -679,8 +679,8 @@
             "code": "equal(ca('1+2*3-4/4'), 6);\nequal(ca('5*4-3+6*3%2'), 5 * 4 - 3 + 6 * 3 % 2);\nequal(ca('9.2*3%3-3*5*3-3-9+5/3'), 9.2 * 3 % 3 - 3 * 5 * 3 - 3 - 9 + 5 / 3);\nequal(ca('6*5/32*3-1*3+2*4%3'), 6 * 5 / 32 * 3 - 1 * 3 + 2 * 4 % 3);\nequal(ca('2.32*2.12/32.33+1'), +(2.32 * 2.12 / 32.33 + 1).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "8131ae5e-f018-47dd-8543-291f368e2d30",
-            "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+            "uuid": "e0961a78-f916-40e7-9689-6b89dca969db",
+            "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
             "skipped": false
           },
           {
@@ -696,8 +696,8 @@
             "code": "equal(ca('1^2+2*3-4/4'), 6);\nequal(ca('5*4-3+6*3%2^2'), 5 * 4 - 3 + 6 * 3 % Math.pow(2, 2));\nequal(ca('9.2*3%3-3*5*3^2-3-9+5/3'), 9.2 * 3 % 3 - 3 * 5 * Math.pow(3, 2) - 3 - 9 + 5 / 3);\nequal(ca('6*5/32*3-1^3*3+2*4%3'), 6 * 5 / 32 * 3 - 1 * 3 + 2 * 4 % 3);\nequal(ca('2.32^4*2.12/32.33+1'), +(Math.pow(2.32, 4) * 2.12 / 32.33 + 1).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "527b35df-985e-4578-94a0-4ccbd7f3d009",
-            "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+            "uuid": "30f1d8f7-1ef1-4ece-a6f4-3dd9af59cb6f",
+            "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
             "skipped": false
           }
         ],
@@ -705,7 +705,7 @@
         "root": false,
         "_timeout": 2000,
         "file": "\\test\\main.test.js",
-        "uuid": "c426d257-6d62-40b8-ba43-88620aae5644",
+        "uuid": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
         "fullFile": "F:\\300\\git\\IfeTask\\caculator\\caculator\\test\\main.test.js",
         "passes": [
           {
@@ -721,8 +721,8 @@
             "code": "var num1, num2;\nfor (var i = 0; i < 10; i++) {\n\tnum1 = Math.random() * 1000 | 0;\n\tnum2 = Math.random() * 1000 | 0;\n\tequal(ca(' ' + num1 + ' + ' + num2 + ' '), +(num1 + num2).toFixed(15));\n}",
             "err": {},
             "isRoot": false,
-            "uuid": "4a234cce-2700-4025-ad6e-edf1761d26ee",
-            "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+            "uuid": "59d1ed08-59e0-49c8-a576-d0c19e707fa8",
+            "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
             "skipped": false
           },
           {
@@ -738,8 +738,8 @@
             "code": "var num1, num2;\nfor (var i = 0; i < 10; i++) {\n\tnum1 = Math.random();\n\tnum2 = Math.random();\n\tequal(ca(' ' + num1 + ' + ' + num2 + ' '), +(num1 + num2).toFixed(15));\n}",
             "err": {},
             "isRoot": false,
-            "uuid": "8b419712-335b-4fa6-b21b-42af562c3cd8",
-            "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+            "uuid": "02a2859a-425a-43f7-bdb0-b2c70d32e3da",
+            "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
             "skipped": false
           },
           {
@@ -755,8 +755,8 @@
             "code": "var num1 = Math.random(),\n    num2 = Math.random() / Math.random() | 0;\nfor (var i = 0; i < 20; i++) {\n\tequal(ca(num1 + '+' + num2), +(num1 + num2).toFixed(15));\n}",
             "err": {},
             "isRoot": false,
-            "uuid": "cca91b57-2257-4b18-8df5-151708692d3e",
-            "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+            "uuid": "1e8b0336-e422-46b5-b077-12007d7369dd",
+            "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
             "skipped": false
           },
           {
@@ -772,8 +772,8 @@
             "code": "var arr;\nfor (var i = 0; i < 10; i++) {\n\tarr = new Array(Math.random() * 10 | 0).fill(Math.random());\n}",
             "err": {},
             "isRoot": false,
-            "uuid": "b70eba95-c9fe-4181-8605-07e389dbe5d0",
-            "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+            "uuid": "ff772f29-a292-4933-8835-b017b5da9ce9",
+            "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
             "skipped": false
           },
           {
@@ -789,8 +789,8 @@
             "code": "equal(ca('1+2*3-4/4'), 6);\nequal(ca('5*4-3+6*3%2'), 5 * 4 - 3 + 6 * 3 % 2);\nequal(ca('9.2*3%3-3*5*3-3-9+5/3'), 9.2 * 3 % 3 - 3 * 5 * 3 - 3 - 9 + 5 / 3);\nequal(ca('6*5/32*3-1*3+2*4%3'), 6 * 5 / 32 * 3 - 1 * 3 + 2 * 4 % 3);\nequal(ca('2.32*2.12/32.33+1'), +(2.32 * 2.12 / 32.33 + 1).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "8131ae5e-f018-47dd-8543-291f368e2d30",
-            "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+            "uuid": "e0961a78-f916-40e7-9689-6b89dca969db",
+            "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
             "skipped": false
           },
           {
@@ -806,8 +806,8 @@
             "code": "equal(ca('1^2+2*3-4/4'), 6);\nequal(ca('5*4-3+6*3%2^2'), 5 * 4 - 3 + 6 * 3 % Math.pow(2, 2));\nequal(ca('9.2*3%3-3*5*3^2-3-9+5/3'), 9.2 * 3 % 3 - 3 * 5 * Math.pow(3, 2) - 3 - 9 + 5 / 3);\nequal(ca('6*5/32*3-1^3*3+2*4%3'), 6 * 5 / 32 * 3 - 1 * 3 + 2 * 4 % 3);\nequal(ca('2.32^4*2.12/32.33+1'), +(Math.pow(2.32, 4) * 2.12 / 32.33 + 1).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "527b35df-985e-4578-94a0-4ccbd7f3d009",
-            "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+            "uuid": "30f1d8f7-1ef1-4ece-a6f4-3dd9af59cb6f",
+            "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
             "skipped": false
           }
         ],
@@ -844,8 +844,8 @@
             "code": "equal(ca('e+1'), +(Math.E + 1).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "35f7de57-9d62-42ae-bc5c-99359241cd6b",
-            "parentUUID": "5b39ca95-b9a4-41f6-9ef7-7341c554509c",
+            "uuid": "03ec1ef1-58ba-4aef-9b74-2ae6955a3a1b",
+            "parentUUID": "71fae68d-db4b-45b7-a038-9d603f8ec2ec",
             "skipped": false
           },
           {
@@ -861,8 +861,8 @@
             "code": "equal(ca('π*e+1'), +(Math.PI * Math.E + 1).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "16349941-b624-4055-85a7-321371aae0af",
-            "parentUUID": "5b39ca95-b9a4-41f6-9ef7-7341c554509c",
+            "uuid": "8888c859-d4d2-4a1b-85dc-20c9f1e7bb9c",
+            "parentUUID": "71fae68d-db4b-45b7-a038-9d603f8ec2ec",
             "skipped": false
           }
         ],
@@ -870,7 +870,7 @@
         "root": false,
         "_timeout": 2000,
         "file": "\\test\\main.test.js",
-        "uuid": "5b39ca95-b9a4-41f6-9ef7-7341c554509c",
+        "uuid": "71fae68d-db4b-45b7-a038-9d603f8ec2ec",
         "fullFile": "F:\\300\\git\\IfeTask\\caculator\\caculator\\test\\main.test.js",
         "passes": [
           {
@@ -886,8 +886,8 @@
             "code": "equal(ca('e+1'), +(Math.E + 1).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "35f7de57-9d62-42ae-bc5c-99359241cd6b",
-            "parentUUID": "5b39ca95-b9a4-41f6-9ef7-7341c554509c",
+            "uuid": "03ec1ef1-58ba-4aef-9b74-2ae6955a3a1b",
+            "parentUUID": "71fae68d-db4b-45b7-a038-9d603f8ec2ec",
             "skipped": false
           },
           {
@@ -903,8 +903,8 @@
             "code": "equal(ca('π*e+1'), +(Math.PI * Math.E + 1).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "16349941-b624-4055-85a7-321371aae0af",
-            "parentUUID": "5b39ca95-b9a4-41f6-9ef7-7341c554509c",
+            "uuid": "8888c859-d4d2-4a1b-85dc-20c9f1e7bb9c",
+            "parentUUID": "71fae68d-db4b-45b7-a038-9d603f8ec2ec",
             "skipped": false
           }
         ],
@@ -941,8 +941,8 @@
             "code": "equal(ca('pow(2,3) + pow(2,3)'), Math.pow(2, 3) + Math.pow(2, 3));",
             "err": {},
             "isRoot": false,
-            "uuid": "b82d6d25-ac80-44cd-9f48-90445261d804",
-            "parentUUID": "3187905f-f283-440a-b0aa-bc3960c9064b",
+            "uuid": "630d0ff6-65e7-4332-bf1f-7602a674556a",
+            "parentUUID": "fc5aa534-7849-411a-9841-2261859de139",
             "skipped": false
           },
           {
@@ -958,8 +958,8 @@
             "code": "equal(ca('pow(pow(2,3),3)'), Math.pow(Math.pow(2, 3), 3));",
             "err": {},
             "isRoot": false,
-            "uuid": "aa47a383-fcfc-49a3-bc4a-fb73e67113e6",
-            "parentUUID": "3187905f-f283-440a-b0aa-bc3960c9064b",
+            "uuid": "32c047c4-4183-43db-8a12-72cc16c28d75",
+            "parentUUID": "fc5aa534-7849-411a-9841-2261859de139",
             "skipped": false
           }
         ],
@@ -967,7 +967,7 @@
         "root": false,
         "_timeout": 2000,
         "file": "\\test\\main.test.js",
-        "uuid": "3187905f-f283-440a-b0aa-bc3960c9064b",
+        "uuid": "fc5aa534-7849-411a-9841-2261859de139",
         "fullFile": "F:\\300\\git\\IfeTask\\caculator\\caculator\\test\\main.test.js",
         "passes": [
           {
@@ -983,8 +983,8 @@
             "code": "equal(ca('pow(2,3) + pow(2,3)'), Math.pow(2, 3) + Math.pow(2, 3));",
             "err": {},
             "isRoot": false,
-            "uuid": "b82d6d25-ac80-44cd-9f48-90445261d804",
-            "parentUUID": "3187905f-f283-440a-b0aa-bc3960c9064b",
+            "uuid": "630d0ff6-65e7-4332-bf1f-7602a674556a",
+            "parentUUID": "fc5aa534-7849-411a-9841-2261859de139",
             "skipped": false
           },
           {
@@ -1000,8 +1000,8 @@
             "code": "equal(ca('pow(pow(2,3),3)'), Math.pow(Math.pow(2, 3), 3));",
             "err": {},
             "isRoot": false,
-            "uuid": "aa47a383-fcfc-49a3-bc4a-fb73e67113e6",
-            "parentUUID": "3187905f-f283-440a-b0aa-bc3960c9064b",
+            "uuid": "32c047c4-4183-43db-8a12-72cc16c28d75",
+            "parentUUID": "fc5aa534-7849-411a-9841-2261859de139",
             "skipped": false
           }
         ],
@@ -1011,6 +1011,307 @@
         "hasSuites": false,
         "totalTests": 2,
         "totalPasses": 2,
+        "totalFailures": 0,
+        "totalPending": 0,
+        "totalSkipped": 0,
+        "hasPasses": true,
+        "hasFailures": false,
+        "hasPending": false,
+        "hasSkipped": false,
+        "duration": 0,
+        "rootEmpty": false
+      },
+      {
+        "title": "优先级测试",
+        "suites": [],
+        "tests": [
+          {
+            "title": "int型加减乘除优先级",
+            "fullTitle": "优先级测试 int型加减乘除优先级",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "equal(ca('1+1*2'), 3);\nequal(ca('1-1*2'), -1);\nequal(ca('1+1*2+1'), 4);\nequal(ca('1+1*2/2'), 2);\nequal(ca('2*1+1*2'), 4);\nequal(ca('2/2+1*2'), 3);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "cd65813c-fca5-468a-9de4-21f36d1d0b21",
+            "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+            "skipped": false
+          },
+          {
+            "title": "float型加减乘除优先级",
+            "fullTitle": "优先级测试 float型加减乘除优先级",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "equal(ca('1.5+1.5*2'), 4.5);\nequal(ca('2.5/1.25+3.5*2'), 9);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "b352e546-707e-4140-980b-aeb29fbaca1e",
+            "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+            "skipped": false
+          },
+          {
+            "title": "加减乘除余幂优先级",
+            "fullTitle": "优先级测试 加减乘除余幂优先级",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "equal(ca('10*5^3%2+4/2'), 10 * Math.pow(5, 3) % 2 + 4 / 2);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "e4c1249e-2104-4aa2-bf43-e24c512993e5",
+            "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+            "skipped": false
+          },
+          {
+            "title": "余幂优先级",
+            "fullTitle": "优先级测试 余幂优先级",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "equal(ca('2%2^5'), 2 % Math.pow(2, 5));",
+            "err": {},
+            "isRoot": false,
+            "uuid": "383a3f50-8644-4fb2-9fa7-3a11d5f42f09",
+            "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+            "skipped": false
+          },
+          {
+            "title": "方法与加减乘除优先级",
+            "fullTitle": "优先级测试 方法与加减乘除优先级",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "equal(ca('20 + sin(30) - 10 / 5'), 20 + Math.sin(30 / 180 * Math.PI) - 10 / 5);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "2c59dc07-49a8-4b73-ad60-ce6d0b126cdd",
+            "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+            "skipped": false
+          },
+          {
+            "title": "括号与加减乘除优先级",
+            "fullTitle": "优先级测试 括号与加减乘除优先级",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "equal(ca('1+(1+1)*5'), 1 + (1 + 1) * 5);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "eb2fdde4-061a-4668-9905-96fc465a845c",
+            "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+            "skipped": false
+          },
+          {
+            "title": "括号与加减乘除优先级",
+            "fullTitle": "优先级测试 括号与加减乘除优先级",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "equal(ca('1+(1+1)*5'), 1 + (1 + 1) * 5);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "c6569731-c732-4724-8116-b2eafcec7a49",
+            "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+            "skipped": false
+          },
+          {
+            "title": "综合优先级",
+            "fullTitle": "优先级测试 综合优先级",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "equal(ca('3/2 - 1+(1+1)*5^2 + (sin(30)*5) + pow(1+1, 1+1)'), 3 / 2 - 1 + (1 + 1) * Math.pow(5, 2) + Math.sin(30 / 180 * Math.PI) * 5 + Math.pow(1 + 1, 1 + 1));",
+            "err": {},
+            "isRoot": false,
+            "uuid": "b8b46a4f-d7d7-48ef-b5ae-8bef7cd01b34",
+            "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+            "skipped": false
+          }
+        ],
+        "pending": [],
+        "root": false,
+        "_timeout": 2000,
+        "file": "\\test\\main.test.js",
+        "uuid": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+        "fullFile": "F:\\300\\git\\IfeTask\\caculator\\caculator\\test\\main.test.js",
+        "passes": [
+          {
+            "title": "int型加减乘除优先级",
+            "fullTitle": "优先级测试 int型加减乘除优先级",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "equal(ca('1+1*2'), 3);\nequal(ca('1-1*2'), -1);\nequal(ca('1+1*2+1'), 4);\nequal(ca('1+1*2/2'), 2);\nequal(ca('2*1+1*2'), 4);\nequal(ca('2/2+1*2'), 3);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "cd65813c-fca5-468a-9de4-21f36d1d0b21",
+            "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+            "skipped": false
+          },
+          {
+            "title": "float型加减乘除优先级",
+            "fullTitle": "优先级测试 float型加减乘除优先级",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "equal(ca('1.5+1.5*2'), 4.5);\nequal(ca('2.5/1.25+3.5*2'), 9);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "b352e546-707e-4140-980b-aeb29fbaca1e",
+            "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+            "skipped": false
+          },
+          {
+            "title": "加减乘除余幂优先级",
+            "fullTitle": "优先级测试 加减乘除余幂优先级",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "equal(ca('10*5^3%2+4/2'), 10 * Math.pow(5, 3) % 2 + 4 / 2);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "e4c1249e-2104-4aa2-bf43-e24c512993e5",
+            "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+            "skipped": false
+          },
+          {
+            "title": "余幂优先级",
+            "fullTitle": "优先级测试 余幂优先级",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "equal(ca('2%2^5'), 2 % Math.pow(2, 5));",
+            "err": {},
+            "isRoot": false,
+            "uuid": "383a3f50-8644-4fb2-9fa7-3a11d5f42f09",
+            "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+            "skipped": false
+          },
+          {
+            "title": "方法与加减乘除优先级",
+            "fullTitle": "优先级测试 方法与加减乘除优先级",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "equal(ca('20 + sin(30) - 10 / 5'), 20 + Math.sin(30 / 180 * Math.PI) - 10 / 5);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "2c59dc07-49a8-4b73-ad60-ce6d0b126cdd",
+            "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+            "skipped": false
+          },
+          {
+            "title": "括号与加减乘除优先级",
+            "fullTitle": "优先级测试 括号与加减乘除优先级",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "equal(ca('1+(1+1)*5'), 1 + (1 + 1) * 5);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "eb2fdde4-061a-4668-9905-96fc465a845c",
+            "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+            "skipped": false
+          },
+          {
+            "title": "括号与加减乘除优先级",
+            "fullTitle": "优先级测试 括号与加减乘除优先级",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "equal(ca('1+(1+1)*5'), 1 + (1 + 1) * 5);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "c6569731-c732-4724-8116-b2eafcec7a49",
+            "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+            "skipped": false
+          },
+          {
+            "title": "综合优先级",
+            "fullTitle": "优先级测试 综合优先级",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "equal(ca('3/2 - 1+(1+1)*5^2 + (sin(30)*5) + pow(1+1, 1+1)'), 3 / 2 - 1 + (1 + 1) * Math.pow(5, 2) + Math.sin(30 / 180 * Math.PI) * 5 + Math.pow(1 + 1, 1 + 1));",
+            "err": {},
+            "isRoot": false,
+            "uuid": "b8b46a4f-d7d7-48ef-b5ae-8bef7cd01b34",
+            "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+            "skipped": false
+          }
+        ],
+        "failures": [],
+        "skipped": [],
+        "hasTests": true,
+        "hasSuites": false,
+        "totalTests": 8,
+        "totalPasses": 8,
         "totalFailures": 0,
         "totalPending": 0,
         "totalSkipped": 0,
@@ -1038,8 +1339,8 @@
             "code": "equal(ca('0.1+0.2'), 0.3);",
             "err": {},
             "isRoot": false,
-            "uuid": "59bd673c-4896-4e71-90cf-8a29afab6c74",
-            "parentUUID": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+            "uuid": "ab94417b-6af9-4bfa-b2f7-d30b0bf2265f",
+            "parentUUID": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
             "skipped": false
           },
           {
@@ -1055,8 +1356,8 @@
             "code": "equal(ca('  0.1   +   0.5   '), 0.6);",
             "err": {},
             "isRoot": false,
-            "uuid": "6b67cbfa-e861-48eb-8c85-ab6cb0809e12",
-            "parentUUID": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+            "uuid": "ad9d3dac-4a30-47a5-ae89-3b5bf7ac6edd",
+            "parentUUID": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
             "skipped": false
           },
           {
@@ -1072,8 +1373,8 @@
             "code": "equal(ca('2^3^4'), Math.pow(Math.pow(2, 3), 4));",
             "err": {},
             "isRoot": false,
-            "uuid": "eff1561e-03fc-41ea-9daa-d94e234b940e",
-            "parentUUID": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+            "uuid": "1850e1ff-3c2f-477a-9226-b4371380b1a7",
+            "parentUUID": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
             "skipped": false
           },
           {
@@ -1089,8 +1390,8 @@
             "code": "equal(ca('(2+1)^(3-1)^4'), Math.pow(Math.pow(2 + 1, 3 - 1), 4));",
             "err": {},
             "isRoot": false,
-            "uuid": "761d6f2b-d6ed-4a81-acbd-aa383eb848fd",
-            "parentUUID": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+            "uuid": "cc0bfeec-9925-4cae-80e0-5a52c120f7ab",
+            "parentUUID": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
             "skipped": false
           },
           {
@@ -1106,8 +1407,8 @@
             "code": "equal(ca('1+(1+1)^2'), 5);",
             "err": {},
             "isRoot": false,
-            "uuid": "dd2b6e20-4ce5-4cec-80cb-9db84a3ea8dd",
-            "parentUUID": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+            "uuid": "605cb24e-cdf2-4fc6-bc71-049b7dff7d1b",
+            "parentUUID": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
             "skipped": false
           }
         ],
@@ -1115,7 +1416,7 @@
         "root": false,
         "_timeout": 2000,
         "file": "\\test\\main.test.js",
-        "uuid": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+        "uuid": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
         "fullFile": "F:\\300\\git\\IfeTask\\caculator\\caculator\\test\\main.test.js",
         "passes": [
           {
@@ -1131,8 +1432,8 @@
             "code": "equal(ca('0.1+0.2'), 0.3);",
             "err": {},
             "isRoot": false,
-            "uuid": "59bd673c-4896-4e71-90cf-8a29afab6c74",
-            "parentUUID": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+            "uuid": "ab94417b-6af9-4bfa-b2f7-d30b0bf2265f",
+            "parentUUID": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
             "skipped": false
           },
           {
@@ -1148,8 +1449,8 @@
             "code": "equal(ca('  0.1   +   0.5   '), 0.6);",
             "err": {},
             "isRoot": false,
-            "uuid": "6b67cbfa-e861-48eb-8c85-ab6cb0809e12",
-            "parentUUID": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+            "uuid": "ad9d3dac-4a30-47a5-ae89-3b5bf7ac6edd",
+            "parentUUID": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
             "skipped": false
           },
           {
@@ -1165,8 +1466,8 @@
             "code": "equal(ca('2^3^4'), Math.pow(Math.pow(2, 3), 4));",
             "err": {},
             "isRoot": false,
-            "uuid": "eff1561e-03fc-41ea-9daa-d94e234b940e",
-            "parentUUID": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+            "uuid": "1850e1ff-3c2f-477a-9226-b4371380b1a7",
+            "parentUUID": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
             "skipped": false
           },
           {
@@ -1182,8 +1483,8 @@
             "code": "equal(ca('(2+1)^(3-1)^4'), Math.pow(Math.pow(2 + 1, 3 - 1), 4));",
             "err": {},
             "isRoot": false,
-            "uuid": "761d6f2b-d6ed-4a81-acbd-aa383eb848fd",
-            "parentUUID": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+            "uuid": "cc0bfeec-9925-4cae-80e0-5a52c120f7ab",
+            "parentUUID": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
             "skipped": false
           },
           {
@@ -1199,8 +1500,8 @@
             "code": "equal(ca('1+(1+1)^2'), 5);",
             "err": {},
             "isRoot": false,
-            "uuid": "dd2b6e20-4ce5-4cec-80cb-9db84a3ea8dd",
-            "parentUUID": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+            "uuid": "605cb24e-cdf2-4fc6-bc71-049b7dff7d1b",
+            "parentUUID": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
             "skipped": false
           }
         ],
@@ -1237,8 +1538,8 @@
             "code": "equal(ca('1 + 3 + 2^(3^2)'), 516);",
             "err": {},
             "isRoot": false,
-            "uuid": "ae905213-b8d7-4c3d-85c8-3ff037d2198c",
-            "parentUUID": "a2d7f77c-9b95-4aa2-8514-e06d607507e5",
+            "uuid": "679d5b6e-1da5-4bb2-aebf-8e7d9b316822",
+            "parentUUID": "cbbeac0b-2337-4982-b955-c10c64454fb7",
             "skipped": false
           },
           {
@@ -1254,8 +1555,8 @@
             "code": "equal(ca('1 + 3 + sin(5 *(8 + 1))'), +(1 + 3 + Math.sin(5 * (8 + 1) * Math.PI / 180)).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "45e5af59-b057-4a75-b66f-c10a6c5f28de",
-            "parentUUID": "a2d7f77c-9b95-4aa2-8514-e06d607507e5",
+            "uuid": "1b44ef0e-32da-4509-a9ff-1638ff4903aa",
+            "parentUUID": "cbbeac0b-2337-4982-b955-c10c64454fb7",
             "skipped": false
           }
         ],
@@ -1263,7 +1564,7 @@
         "root": false,
         "_timeout": 2000,
         "file": "\\test\\main.test.js",
-        "uuid": "a2d7f77c-9b95-4aa2-8514-e06d607507e5",
+        "uuid": "cbbeac0b-2337-4982-b955-c10c64454fb7",
         "fullFile": "F:\\300\\git\\IfeTask\\caculator\\caculator\\test\\main.test.js",
         "passes": [
           {
@@ -1279,8 +1580,8 @@
             "code": "equal(ca('1 + 3 + 2^(3^2)'), 516);",
             "err": {},
             "isRoot": false,
-            "uuid": "ae905213-b8d7-4c3d-85c8-3ff037d2198c",
-            "parentUUID": "a2d7f77c-9b95-4aa2-8514-e06d607507e5",
+            "uuid": "679d5b6e-1da5-4bb2-aebf-8e7d9b316822",
+            "parentUUID": "cbbeac0b-2337-4982-b955-c10c64454fb7",
             "skipped": false
           },
           {
@@ -1296,8 +1597,8 @@
             "code": "equal(ca('1 + 3 + sin(5 *(8 + 1))'), +(1 + 3 + Math.sin(5 * (8 + 1) * Math.PI / 180)).toFixed(15));",
             "err": {},
             "isRoot": false,
-            "uuid": "45e5af59-b057-4a75-b66f-c10a6c5f28de",
-            "parentUUID": "a2d7f77c-9b95-4aa2-8514-e06d607507e5",
+            "uuid": "1b44ef0e-32da-4509-a9ff-1638ff4903aa",
+            "parentUUID": "cbbeac0b-2337-4982-b955-c10c64454fb7",
             "skipped": false
           }
         ],
@@ -1322,7 +1623,7 @@
     "pending": [],
     "root": true,
     "_timeout": 2000,
-    "uuid": "311c715a-e337-4960-b16d-4b039f69c808",
+    "uuid": "07cbdcf8-0321-48b5-a71c-0235f8004256",
     "fullFile": "",
     "file": "",
     "passes": [],
@@ -1356,8 +1657,8 @@
       "code": "equal(ca('1+2'), 3);",
       "err": {},
       "isRoot": false,
-      "uuid": "ef56e471-ed73-43f1-9dc0-32dce515bcd7",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "3dcd5edb-13eb-4df4-b8b1-248cd161a6da",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -1373,8 +1674,8 @@
       "code": "equal(ca('1-2'), -1);",
       "err": {},
       "isRoot": false,
-      "uuid": "9466e416-2eb0-49de-81c5-a1383e01dda6",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "10c9bc58-db88-485b-9960-834c1d31874d",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -1390,15 +1691,15 @@
       "code": "equal(ca('2*2'), 4);",
       "err": {},
       "isRoot": false,
-      "uuid": "9aab82da-2570-4aba-b05c-733b2fef593b",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "de41a285-7758-469d-be66-30edf583f393",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
       "title": "除法",
       "fullTitle": "简单测试 除法",
       "timedOut": false,
-      "duration": 0,
+      "duration": 16,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1407,8 +1708,8 @@
       "code": "equal(ca('4/3'), +(4 / 3).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "1880de2a-1425-4116-a1f6-1190ff87cbec",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "5d45fde0-9df9-419b-bf90-d2aea26aeea9",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -1424,8 +1725,8 @@
       "code": "equal(ca('2^3'), 8);",
       "err": {},
       "isRoot": false,
-      "uuid": "9aa87ba2-cbcd-4efb-994c-dd3e6fe0fbc9",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "95177a90-397b-4570-93b4-b3dc1093a835",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -1441,8 +1742,8 @@
       "code": "equal(ca('3%2'), 1);",
       "err": {},
       "isRoot": false,
-      "uuid": "88bb8989-10bf-48c7-b1fa-07dbd7182792",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "2579820f-0e16-44e1-8434-bcde9def8647",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -1458,8 +1759,8 @@
       "code": "equal(ca('abs(-1)'), 1);",
       "err": {},
       "isRoot": false,
-      "uuid": "b2a940ed-5252-44cb-8508-fd27a0e91815",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "08b8b870-37f4-4fd4-a5a6-48e7b20923ab",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -1475,8 +1776,8 @@
       "code": "equal(ca('avg(1,2)'), 1.5);",
       "err": {},
       "isRoot": false,
-      "uuid": "65be0010-3278-4bd8-8af8-ddeeadc90ad5",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "944e12d2-bd72-4d6a-a0fb-4bdab8e70ce1",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -1492,8 +1793,8 @@
       "code": "equal(ca('sin(30)'), 0.5);",
       "err": {},
       "isRoot": false,
-      "uuid": "6d87d42a-6c9b-4653-b5fa-ec4dc69e6fc9",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "f5907c4e-c4b9-4f8b-a814-37c8bd9b0111",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -1509,8 +1810,8 @@
       "code": "equal(ca('cos(60)'), 0.5);",
       "err": {},
       "isRoot": false,
-      "uuid": "35a8b96e-1e35-4b7d-a0f5-f3cfcca0807d",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "af1b2a74-4ba6-4cfb-869a-085cdd8fb4e7",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -1526,8 +1827,8 @@
       "code": "equal(ca('tan(45)'), 1);",
       "err": {},
       "isRoot": false,
-      "uuid": "70100416-6ede-4250-b095-9602b7e1772e",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "fa427fe0-7415-454c-958a-7d353ff18306",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -1543,8 +1844,8 @@
       "code": "equal(ca('cot(45)'), 1);",
       "err": {},
       "isRoot": false,
-      "uuid": "306e8e6d-4cc0-4912-a979-7e9f187f368b",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "16af1b4d-2722-4fb0-9216-a920a508d9c7",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -1560,8 +1861,8 @@
       "code": "equal(ca('log(100)'), 2);",
       "err": {},
       "isRoot": false,
-      "uuid": "688ce4e5-afcf-4e07-8028-012303a52692",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "398935d5-8898-4249-a6db-82ad5abbe140",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -1577,8 +1878,8 @@
       "code": "equal(ca('ln(100)'), Math.log(100));",
       "err": {},
       "isRoot": false,
-      "uuid": "b6529b7b-be7f-4c62-af60-db5ca720f55f",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "c2fd0226-48e9-48df-8f9b-4aede4f6762e",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -1594,8 +1895,8 @@
       "code": "equal(ca('e'), Math.E);",
       "err": {},
       "isRoot": false,
-      "uuid": "3bfbfb6a-08c6-436b-92ba-c6895cb4a704",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "4490f429-95ea-4c98-ae3a-6c530ef456af",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -1611,8 +1912,8 @@
       "code": "equal(ca('π'), Math.PI);",
       "err": {},
       "isRoot": false,
-      "uuid": "2ead8fa8-35fa-4e23-ba11-d9bd4d722fec",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "6123cd5a-a5c0-4d9b-bc05-3785c7c566af",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -1628,8 +1929,8 @@
       "code": "var num1, num2;\nfor (var i = 0; i < 10; i++) {\n\tnum1 = Math.random() * 1000 | 0;\n\tnum2 = Math.random() * 1000 | 0;\n\tequal(ca(' ' + num1 + ' + ' + num2 + ' '), +(num1 + num2).toFixed(15));\n}",
       "err": {},
       "isRoot": false,
-      "uuid": "4a234cce-2700-4025-ad6e-edf1761d26ee",
-      "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+      "uuid": "59d1ed08-59e0-49c8-a576-d0c19e707fa8",
+      "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
       "skipped": false
     },
     {
@@ -1645,8 +1946,8 @@
       "code": "var num1, num2;\nfor (var i = 0; i < 10; i++) {\n\tnum1 = Math.random();\n\tnum2 = Math.random();\n\tequal(ca(' ' + num1 + ' + ' + num2 + ' '), +(num1 + num2).toFixed(15));\n}",
       "err": {},
       "isRoot": false,
-      "uuid": "8b419712-335b-4fa6-b21b-42af562c3cd8",
-      "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+      "uuid": "02a2859a-425a-43f7-bdb0-b2c70d32e3da",
+      "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
       "skipped": false
     },
     {
@@ -1662,8 +1963,8 @@
       "code": "var num1 = Math.random(),\n    num2 = Math.random() / Math.random() | 0;\nfor (var i = 0; i < 20; i++) {\n\tequal(ca(num1 + '+' + num2), +(num1 + num2).toFixed(15));\n}",
       "err": {},
       "isRoot": false,
-      "uuid": "cca91b57-2257-4b18-8df5-151708692d3e",
-      "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+      "uuid": "1e8b0336-e422-46b5-b077-12007d7369dd",
+      "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
       "skipped": false
     },
     {
@@ -1679,8 +1980,8 @@
       "code": "var arr;\nfor (var i = 0; i < 10; i++) {\n\tarr = new Array(Math.random() * 10 | 0).fill(Math.random());\n}",
       "err": {},
       "isRoot": false,
-      "uuid": "b70eba95-c9fe-4181-8605-07e389dbe5d0",
-      "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+      "uuid": "ff772f29-a292-4933-8835-b017b5da9ce9",
+      "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
       "skipped": false
     },
     {
@@ -1696,8 +1997,8 @@
       "code": "equal(ca('1+2*3-4/4'), 6);\nequal(ca('5*4-3+6*3%2'), 5 * 4 - 3 + 6 * 3 % 2);\nequal(ca('9.2*3%3-3*5*3-3-9+5/3'), 9.2 * 3 % 3 - 3 * 5 * 3 - 3 - 9 + 5 / 3);\nequal(ca('6*5/32*3-1*3+2*4%3'), 6 * 5 / 32 * 3 - 1 * 3 + 2 * 4 % 3);\nequal(ca('2.32*2.12/32.33+1'), +(2.32 * 2.12 / 32.33 + 1).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "8131ae5e-f018-47dd-8543-291f368e2d30",
-      "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+      "uuid": "e0961a78-f916-40e7-9689-6b89dca969db",
+      "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
       "skipped": false
     },
     {
@@ -1713,8 +2014,8 @@
       "code": "equal(ca('1^2+2*3-4/4'), 6);\nequal(ca('5*4-3+6*3%2^2'), 5 * 4 - 3 + 6 * 3 % Math.pow(2, 2));\nequal(ca('9.2*3%3-3*5*3^2-3-9+5/3'), 9.2 * 3 % 3 - 3 * 5 * Math.pow(3, 2) - 3 - 9 + 5 / 3);\nequal(ca('6*5/32*3-1^3*3+2*4%3'), 6 * 5 / 32 * 3 - 1 * 3 + 2 * 4 % 3);\nequal(ca('2.32^4*2.12/32.33+1'), +(Math.pow(2.32, 4) * 2.12 / 32.33 + 1).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "527b35df-985e-4578-94a0-4ccbd7f3d009",
-      "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+      "uuid": "30f1d8f7-1ef1-4ece-a6f4-3dd9af59cb6f",
+      "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
       "skipped": false
     },
     {
@@ -1730,8 +2031,8 @@
       "code": "equal(ca('e+1'), +(Math.E + 1).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "35f7de57-9d62-42ae-bc5c-99359241cd6b",
-      "parentUUID": "5b39ca95-b9a4-41f6-9ef7-7341c554509c",
+      "uuid": "03ec1ef1-58ba-4aef-9b74-2ae6955a3a1b",
+      "parentUUID": "71fae68d-db4b-45b7-a038-9d603f8ec2ec",
       "skipped": false
     },
     {
@@ -1747,8 +2048,8 @@
       "code": "equal(ca('π*e+1'), +(Math.PI * Math.E + 1).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "16349941-b624-4055-85a7-321371aae0af",
-      "parentUUID": "5b39ca95-b9a4-41f6-9ef7-7341c554509c",
+      "uuid": "8888c859-d4d2-4a1b-85dc-20c9f1e7bb9c",
+      "parentUUID": "71fae68d-db4b-45b7-a038-9d603f8ec2ec",
       "skipped": false
     },
     {
@@ -1764,8 +2065,8 @@
       "code": "equal(ca('pow(2,3) + pow(2,3)'), Math.pow(2, 3) + Math.pow(2, 3));",
       "err": {},
       "isRoot": false,
-      "uuid": "b82d6d25-ac80-44cd-9f48-90445261d804",
-      "parentUUID": "3187905f-f283-440a-b0aa-bc3960c9064b",
+      "uuid": "630d0ff6-65e7-4332-bf1f-7602a674556a",
+      "parentUUID": "fc5aa534-7849-411a-9841-2261859de139",
       "skipped": false
     },
     {
@@ -1781,8 +2082,144 @@
       "code": "equal(ca('pow(pow(2,3),3)'), Math.pow(Math.pow(2, 3), 3));",
       "err": {},
       "isRoot": false,
-      "uuid": "aa47a383-fcfc-49a3-bc4a-fb73e67113e6",
-      "parentUUID": "3187905f-f283-440a-b0aa-bc3960c9064b",
+      "uuid": "32c047c4-4183-43db-8a12-72cc16c28d75",
+      "parentUUID": "fc5aa534-7849-411a-9841-2261859de139",
+      "skipped": false
+    },
+    {
+      "title": "int型加减乘除优先级",
+      "fullTitle": "优先级测试 int型加减乘除优先级",
+      "timedOut": false,
+      "duration": 0,
+      "state": "passed",
+      "speed": "fast",
+      "pass": true,
+      "fail": false,
+      "pending": false,
+      "code": "equal(ca('1+1*2'), 3);\nequal(ca('1-1*2'), -1);\nequal(ca('1+1*2+1'), 4);\nequal(ca('1+1*2/2'), 2);\nequal(ca('2*1+1*2'), 4);\nequal(ca('2/2+1*2'), 3);",
+      "err": {},
+      "isRoot": false,
+      "uuid": "cd65813c-fca5-468a-9de4-21f36d1d0b21",
+      "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+      "skipped": false
+    },
+    {
+      "title": "float型加减乘除优先级",
+      "fullTitle": "优先级测试 float型加减乘除优先级",
+      "timedOut": false,
+      "duration": 0,
+      "state": "passed",
+      "speed": "fast",
+      "pass": true,
+      "fail": false,
+      "pending": false,
+      "code": "equal(ca('1.5+1.5*2'), 4.5);\nequal(ca('2.5/1.25+3.5*2'), 9);",
+      "err": {},
+      "isRoot": false,
+      "uuid": "b352e546-707e-4140-980b-aeb29fbaca1e",
+      "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+      "skipped": false
+    },
+    {
+      "title": "加减乘除余幂优先级",
+      "fullTitle": "优先级测试 加减乘除余幂优先级",
+      "timedOut": false,
+      "duration": 0,
+      "state": "passed",
+      "speed": "fast",
+      "pass": true,
+      "fail": false,
+      "pending": false,
+      "code": "equal(ca('10*5^3%2+4/2'), 10 * Math.pow(5, 3) % 2 + 4 / 2);",
+      "err": {},
+      "isRoot": false,
+      "uuid": "e4c1249e-2104-4aa2-bf43-e24c512993e5",
+      "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+      "skipped": false
+    },
+    {
+      "title": "余幂优先级",
+      "fullTitle": "优先级测试 余幂优先级",
+      "timedOut": false,
+      "duration": 0,
+      "state": "passed",
+      "speed": "fast",
+      "pass": true,
+      "fail": false,
+      "pending": false,
+      "code": "equal(ca('2%2^5'), 2 % Math.pow(2, 5));",
+      "err": {},
+      "isRoot": false,
+      "uuid": "383a3f50-8644-4fb2-9fa7-3a11d5f42f09",
+      "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+      "skipped": false
+    },
+    {
+      "title": "方法与加减乘除优先级",
+      "fullTitle": "优先级测试 方法与加减乘除优先级",
+      "timedOut": false,
+      "duration": 0,
+      "state": "passed",
+      "speed": "fast",
+      "pass": true,
+      "fail": false,
+      "pending": false,
+      "code": "equal(ca('20 + sin(30) - 10 / 5'), 20 + Math.sin(30 / 180 * Math.PI) - 10 / 5);",
+      "err": {},
+      "isRoot": false,
+      "uuid": "2c59dc07-49a8-4b73-ad60-ce6d0b126cdd",
+      "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+      "skipped": false
+    },
+    {
+      "title": "括号与加减乘除优先级",
+      "fullTitle": "优先级测试 括号与加减乘除优先级",
+      "timedOut": false,
+      "duration": 0,
+      "state": "passed",
+      "speed": "fast",
+      "pass": true,
+      "fail": false,
+      "pending": false,
+      "code": "equal(ca('1+(1+1)*5'), 1 + (1 + 1) * 5);",
+      "err": {},
+      "isRoot": false,
+      "uuid": "eb2fdde4-061a-4668-9905-96fc465a845c",
+      "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+      "skipped": false
+    },
+    {
+      "title": "括号与加减乘除优先级",
+      "fullTitle": "优先级测试 括号与加减乘除优先级",
+      "timedOut": false,
+      "duration": 0,
+      "state": "passed",
+      "speed": "fast",
+      "pass": true,
+      "fail": false,
+      "pending": false,
+      "code": "equal(ca('1+(1+1)*5'), 1 + (1 + 1) * 5);",
+      "err": {},
+      "isRoot": false,
+      "uuid": "c6569731-c732-4724-8116-b2eafcec7a49",
+      "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+      "skipped": false
+    },
+    {
+      "title": "综合优先级",
+      "fullTitle": "优先级测试 综合优先级",
+      "timedOut": false,
+      "duration": 0,
+      "state": "passed",
+      "speed": "fast",
+      "pass": true,
+      "fail": false,
+      "pending": false,
+      "code": "equal(ca('3/2 - 1+(1+1)*5^2 + (sin(30)*5) + pow(1+1, 1+1)'), 3 / 2 - 1 + (1 + 1) * Math.pow(5, 2) + Math.sin(30 / 180 * Math.PI) * 5 + Math.pow(1 + 1, 1 + 1));",
+      "err": {},
+      "isRoot": false,
+      "uuid": "b8b46a4f-d7d7-48ef-b5ae-8bef7cd01b34",
+      "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
       "skipped": false
     },
     {
@@ -1798,8 +2235,8 @@
       "code": "equal(ca('0.1+0.2'), 0.3);",
       "err": {},
       "isRoot": false,
-      "uuid": "59bd673c-4896-4e71-90cf-8a29afab6c74",
-      "parentUUID": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+      "uuid": "ab94417b-6af9-4bfa-b2f7-d30b0bf2265f",
+      "parentUUID": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
       "skipped": false
     },
     {
@@ -1815,8 +2252,8 @@
       "code": "equal(ca('  0.1   +   0.5   '), 0.6);",
       "err": {},
       "isRoot": false,
-      "uuid": "6b67cbfa-e861-48eb-8c85-ab6cb0809e12",
-      "parentUUID": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+      "uuid": "ad9d3dac-4a30-47a5-ae89-3b5bf7ac6edd",
+      "parentUUID": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
       "skipped": false
     },
     {
@@ -1832,8 +2269,8 @@
       "code": "equal(ca('2^3^4'), Math.pow(Math.pow(2, 3), 4));",
       "err": {},
       "isRoot": false,
-      "uuid": "eff1561e-03fc-41ea-9daa-d94e234b940e",
-      "parentUUID": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+      "uuid": "1850e1ff-3c2f-477a-9226-b4371380b1a7",
+      "parentUUID": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
       "skipped": false
     },
     {
@@ -1849,8 +2286,8 @@
       "code": "equal(ca('(2+1)^(3-1)^4'), Math.pow(Math.pow(2 + 1, 3 - 1), 4));",
       "err": {},
       "isRoot": false,
-      "uuid": "761d6f2b-d6ed-4a81-acbd-aa383eb848fd",
-      "parentUUID": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+      "uuid": "cc0bfeec-9925-4cae-80e0-5a52c120f7ab",
+      "parentUUID": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
       "skipped": false
     },
     {
@@ -1866,8 +2303,8 @@
       "code": "equal(ca('1+(1+1)^2'), 5);",
       "err": {},
       "isRoot": false,
-      "uuid": "dd2b6e20-4ce5-4cec-80cb-9db84a3ea8dd",
-      "parentUUID": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+      "uuid": "605cb24e-cdf2-4fc6-bc71-049b7dff7d1b",
+      "parentUUID": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
       "skipped": false
     },
     {
@@ -1883,8 +2320,8 @@
       "code": "equal(ca('1 + 3 + 2^(3^2)'), 516);",
       "err": {},
       "isRoot": false,
-      "uuid": "ae905213-b8d7-4c3d-85c8-3ff037d2198c",
-      "parentUUID": "a2d7f77c-9b95-4aa2-8514-e06d607507e5",
+      "uuid": "679d5b6e-1da5-4bb2-aebf-8e7d9b316822",
+      "parentUUID": "cbbeac0b-2337-4982-b955-c10c64454fb7",
       "skipped": false
     },
     {
@@ -1900,8 +2337,8 @@
       "code": "equal(ca('1 + 3 + sin(5 *(8 + 1))'), +(1 + 3 + Math.sin(5 * (8 + 1) * Math.PI / 180)).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "45e5af59-b057-4a75-b66f-c10a6c5f28de",
-      "parentUUID": "a2d7f77c-9b95-4aa2-8514-e06d607507e5",
+      "uuid": "1b44ef0e-32da-4509-a9ff-1638ff4903aa",
+      "parentUUID": "cbbeac0b-2337-4982-b955-c10c64454fb7",
       "skipped": false
     }
   ],
@@ -1920,8 +2357,8 @@
       "code": "equal(ca('1+2'), 3);",
       "err": {},
       "isRoot": false,
-      "uuid": "ef56e471-ed73-43f1-9dc0-32dce515bcd7",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "3dcd5edb-13eb-4df4-b8b1-248cd161a6da",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -1937,8 +2374,8 @@
       "code": "equal(ca('1-2'), -1);",
       "err": {},
       "isRoot": false,
-      "uuid": "9466e416-2eb0-49de-81c5-a1383e01dda6",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "10c9bc58-db88-485b-9960-834c1d31874d",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -1954,15 +2391,15 @@
       "code": "equal(ca('2*2'), 4);",
       "err": {},
       "isRoot": false,
-      "uuid": "9aab82da-2570-4aba-b05c-733b2fef593b",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "de41a285-7758-469d-be66-30edf583f393",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
       "title": "除法",
       "fullTitle": "简单测试 除法",
       "timedOut": false,
-      "duration": 0,
+      "duration": 16,
       "state": "passed",
       "speed": "fast",
       "pass": true,
@@ -1971,8 +2408,8 @@
       "code": "equal(ca('4/3'), +(4 / 3).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "1880de2a-1425-4116-a1f6-1190ff87cbec",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "5d45fde0-9df9-419b-bf90-d2aea26aeea9",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -1988,8 +2425,8 @@
       "code": "equal(ca('2^3'), 8);",
       "err": {},
       "isRoot": false,
-      "uuid": "9aa87ba2-cbcd-4efb-994c-dd3e6fe0fbc9",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "95177a90-397b-4570-93b4-b3dc1093a835",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -2005,8 +2442,8 @@
       "code": "equal(ca('3%2'), 1);",
       "err": {},
       "isRoot": false,
-      "uuid": "88bb8989-10bf-48c7-b1fa-07dbd7182792",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "2579820f-0e16-44e1-8434-bcde9def8647",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -2022,8 +2459,8 @@
       "code": "equal(ca('abs(-1)'), 1);",
       "err": {},
       "isRoot": false,
-      "uuid": "b2a940ed-5252-44cb-8508-fd27a0e91815",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "08b8b870-37f4-4fd4-a5a6-48e7b20923ab",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -2039,8 +2476,8 @@
       "code": "equal(ca('avg(1,2)'), 1.5);",
       "err": {},
       "isRoot": false,
-      "uuid": "65be0010-3278-4bd8-8af8-ddeeadc90ad5",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "944e12d2-bd72-4d6a-a0fb-4bdab8e70ce1",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -2056,8 +2493,8 @@
       "code": "equal(ca('sin(30)'), 0.5);",
       "err": {},
       "isRoot": false,
-      "uuid": "6d87d42a-6c9b-4653-b5fa-ec4dc69e6fc9",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "f5907c4e-c4b9-4f8b-a814-37c8bd9b0111",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -2073,8 +2510,8 @@
       "code": "equal(ca('cos(60)'), 0.5);",
       "err": {},
       "isRoot": false,
-      "uuid": "35a8b96e-1e35-4b7d-a0f5-f3cfcca0807d",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "af1b2a74-4ba6-4cfb-869a-085cdd8fb4e7",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -2090,8 +2527,8 @@
       "code": "equal(ca('tan(45)'), 1);",
       "err": {},
       "isRoot": false,
-      "uuid": "70100416-6ede-4250-b095-9602b7e1772e",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "fa427fe0-7415-454c-958a-7d353ff18306",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -2107,8 +2544,8 @@
       "code": "equal(ca('cot(45)'), 1);",
       "err": {},
       "isRoot": false,
-      "uuid": "306e8e6d-4cc0-4912-a979-7e9f187f368b",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "16af1b4d-2722-4fb0-9216-a920a508d9c7",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -2124,8 +2561,8 @@
       "code": "equal(ca('log(100)'), 2);",
       "err": {},
       "isRoot": false,
-      "uuid": "688ce4e5-afcf-4e07-8028-012303a52692",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "398935d5-8898-4249-a6db-82ad5abbe140",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -2141,8 +2578,8 @@
       "code": "equal(ca('ln(100)'), Math.log(100));",
       "err": {},
       "isRoot": false,
-      "uuid": "b6529b7b-be7f-4c62-af60-db5ca720f55f",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "c2fd0226-48e9-48df-8f9b-4aede4f6762e",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -2158,8 +2595,8 @@
       "code": "equal(ca('e'), Math.E);",
       "err": {},
       "isRoot": false,
-      "uuid": "3bfbfb6a-08c6-436b-92ba-c6895cb4a704",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "4490f429-95ea-4c98-ae3a-6c530ef456af",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -2175,8 +2612,8 @@
       "code": "equal(ca('π'), Math.PI);",
       "err": {},
       "isRoot": false,
-      "uuid": "2ead8fa8-35fa-4e23-ba11-d9bd4d722fec",
-      "parentUUID": "083042df-90b8-4e12-ba6b-9ed84ef35c3a",
+      "uuid": "6123cd5a-a5c0-4d9b-bc05-3785c7c566af",
+      "parentUUID": "d04edbcd-8aea-472d-8538-308fd00e60d7",
       "skipped": false
     },
     {
@@ -2192,8 +2629,8 @@
       "code": "var num1, num2;\nfor (var i = 0; i < 10; i++) {\n\tnum1 = Math.random() * 1000 | 0;\n\tnum2 = Math.random() * 1000 | 0;\n\tequal(ca(' ' + num1 + ' + ' + num2 + ' '), +(num1 + num2).toFixed(15));\n}",
       "err": {},
       "isRoot": false,
-      "uuid": "4a234cce-2700-4025-ad6e-edf1761d26ee",
-      "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+      "uuid": "59d1ed08-59e0-49c8-a576-d0c19e707fa8",
+      "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
       "skipped": false
     },
     {
@@ -2209,8 +2646,8 @@
       "code": "var num1, num2;\nfor (var i = 0; i < 10; i++) {\n\tnum1 = Math.random();\n\tnum2 = Math.random();\n\tequal(ca(' ' + num1 + ' + ' + num2 + ' '), +(num1 + num2).toFixed(15));\n}",
       "err": {},
       "isRoot": false,
-      "uuid": "8b419712-335b-4fa6-b21b-42af562c3cd8",
-      "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+      "uuid": "02a2859a-425a-43f7-bdb0-b2c70d32e3da",
+      "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
       "skipped": false
     },
     {
@@ -2226,8 +2663,8 @@
       "code": "var num1 = Math.random(),\n    num2 = Math.random() / Math.random() | 0;\nfor (var i = 0; i < 20; i++) {\n\tequal(ca(num1 + '+' + num2), +(num1 + num2).toFixed(15));\n}",
       "err": {},
       "isRoot": false,
-      "uuid": "cca91b57-2257-4b18-8df5-151708692d3e",
-      "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+      "uuid": "1e8b0336-e422-46b5-b077-12007d7369dd",
+      "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
       "skipped": false
     },
     {
@@ -2243,8 +2680,8 @@
       "code": "var arr;\nfor (var i = 0; i < 10; i++) {\n\tarr = new Array(Math.random() * 10 | 0).fill(Math.random());\n}",
       "err": {},
       "isRoot": false,
-      "uuid": "b70eba95-c9fe-4181-8605-07e389dbe5d0",
-      "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+      "uuid": "ff772f29-a292-4933-8835-b017b5da9ce9",
+      "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
       "skipped": false
     },
     {
@@ -2260,8 +2697,8 @@
       "code": "equal(ca('1+2*3-4/4'), 6);\nequal(ca('5*4-3+6*3%2'), 5 * 4 - 3 + 6 * 3 % 2);\nequal(ca('9.2*3%3-3*5*3-3-9+5/3'), 9.2 * 3 % 3 - 3 * 5 * 3 - 3 - 9 + 5 / 3);\nequal(ca('6*5/32*3-1*3+2*4%3'), 6 * 5 / 32 * 3 - 1 * 3 + 2 * 4 % 3);\nequal(ca('2.32*2.12/32.33+1'), +(2.32 * 2.12 / 32.33 + 1).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "8131ae5e-f018-47dd-8543-291f368e2d30",
-      "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+      "uuid": "e0961a78-f916-40e7-9689-6b89dca969db",
+      "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
       "skipped": false
     },
     {
@@ -2277,8 +2714,8 @@
       "code": "equal(ca('1^2+2*3-4/4'), 6);\nequal(ca('5*4-3+6*3%2^2'), 5 * 4 - 3 + 6 * 3 % Math.pow(2, 2));\nequal(ca('9.2*3%3-3*5*3^2-3-9+5/3'), 9.2 * 3 % 3 - 3 * 5 * Math.pow(3, 2) - 3 - 9 + 5 / 3);\nequal(ca('6*5/32*3-1^3*3+2*4%3'), 6 * 5 / 32 * 3 - 1 * 3 + 2 * 4 % 3);\nequal(ca('2.32^4*2.12/32.33+1'), +(Math.pow(2.32, 4) * 2.12 / 32.33 + 1).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "527b35df-985e-4578-94a0-4ccbd7f3d009",
-      "parentUUID": "c426d257-6d62-40b8-ba43-88620aae5644",
+      "uuid": "30f1d8f7-1ef1-4ece-a6f4-3dd9af59cb6f",
+      "parentUUID": "17a3f4a7-5a0c-44b7-b9ee-654a4f5628df",
       "skipped": false
     },
     {
@@ -2294,8 +2731,8 @@
       "code": "equal(ca('e+1'), +(Math.E + 1).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "35f7de57-9d62-42ae-bc5c-99359241cd6b",
-      "parentUUID": "5b39ca95-b9a4-41f6-9ef7-7341c554509c",
+      "uuid": "03ec1ef1-58ba-4aef-9b74-2ae6955a3a1b",
+      "parentUUID": "71fae68d-db4b-45b7-a038-9d603f8ec2ec",
       "skipped": false
     },
     {
@@ -2311,8 +2748,8 @@
       "code": "equal(ca('π*e+1'), +(Math.PI * Math.E + 1).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "16349941-b624-4055-85a7-321371aae0af",
-      "parentUUID": "5b39ca95-b9a4-41f6-9ef7-7341c554509c",
+      "uuid": "8888c859-d4d2-4a1b-85dc-20c9f1e7bb9c",
+      "parentUUID": "71fae68d-db4b-45b7-a038-9d603f8ec2ec",
       "skipped": false
     },
     {
@@ -2328,8 +2765,8 @@
       "code": "equal(ca('pow(2,3) + pow(2,3)'), Math.pow(2, 3) + Math.pow(2, 3));",
       "err": {},
       "isRoot": false,
-      "uuid": "b82d6d25-ac80-44cd-9f48-90445261d804",
-      "parentUUID": "3187905f-f283-440a-b0aa-bc3960c9064b",
+      "uuid": "630d0ff6-65e7-4332-bf1f-7602a674556a",
+      "parentUUID": "fc5aa534-7849-411a-9841-2261859de139",
       "skipped": false
     },
     {
@@ -2345,8 +2782,144 @@
       "code": "equal(ca('pow(pow(2,3),3)'), Math.pow(Math.pow(2, 3), 3));",
       "err": {},
       "isRoot": false,
-      "uuid": "aa47a383-fcfc-49a3-bc4a-fb73e67113e6",
-      "parentUUID": "3187905f-f283-440a-b0aa-bc3960c9064b",
+      "uuid": "32c047c4-4183-43db-8a12-72cc16c28d75",
+      "parentUUID": "fc5aa534-7849-411a-9841-2261859de139",
+      "skipped": false
+    },
+    {
+      "title": "int型加减乘除优先级",
+      "fullTitle": "优先级测试 int型加减乘除优先级",
+      "timedOut": false,
+      "duration": 0,
+      "state": "passed",
+      "speed": "fast",
+      "pass": true,
+      "fail": false,
+      "pending": false,
+      "code": "equal(ca('1+1*2'), 3);\nequal(ca('1-1*2'), -1);\nequal(ca('1+1*2+1'), 4);\nequal(ca('1+1*2/2'), 2);\nequal(ca('2*1+1*2'), 4);\nequal(ca('2/2+1*2'), 3);",
+      "err": {},
+      "isRoot": false,
+      "uuid": "cd65813c-fca5-468a-9de4-21f36d1d0b21",
+      "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+      "skipped": false
+    },
+    {
+      "title": "float型加减乘除优先级",
+      "fullTitle": "优先级测试 float型加减乘除优先级",
+      "timedOut": false,
+      "duration": 0,
+      "state": "passed",
+      "speed": "fast",
+      "pass": true,
+      "fail": false,
+      "pending": false,
+      "code": "equal(ca('1.5+1.5*2'), 4.5);\nequal(ca('2.5/1.25+3.5*2'), 9);",
+      "err": {},
+      "isRoot": false,
+      "uuid": "b352e546-707e-4140-980b-aeb29fbaca1e",
+      "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+      "skipped": false
+    },
+    {
+      "title": "加减乘除余幂优先级",
+      "fullTitle": "优先级测试 加减乘除余幂优先级",
+      "timedOut": false,
+      "duration": 0,
+      "state": "passed",
+      "speed": "fast",
+      "pass": true,
+      "fail": false,
+      "pending": false,
+      "code": "equal(ca('10*5^3%2+4/2'), 10 * Math.pow(5, 3) % 2 + 4 / 2);",
+      "err": {},
+      "isRoot": false,
+      "uuid": "e4c1249e-2104-4aa2-bf43-e24c512993e5",
+      "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+      "skipped": false
+    },
+    {
+      "title": "余幂优先级",
+      "fullTitle": "优先级测试 余幂优先级",
+      "timedOut": false,
+      "duration": 0,
+      "state": "passed",
+      "speed": "fast",
+      "pass": true,
+      "fail": false,
+      "pending": false,
+      "code": "equal(ca('2%2^5'), 2 % Math.pow(2, 5));",
+      "err": {},
+      "isRoot": false,
+      "uuid": "383a3f50-8644-4fb2-9fa7-3a11d5f42f09",
+      "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+      "skipped": false
+    },
+    {
+      "title": "方法与加减乘除优先级",
+      "fullTitle": "优先级测试 方法与加减乘除优先级",
+      "timedOut": false,
+      "duration": 0,
+      "state": "passed",
+      "speed": "fast",
+      "pass": true,
+      "fail": false,
+      "pending": false,
+      "code": "equal(ca('20 + sin(30) - 10 / 5'), 20 + Math.sin(30 / 180 * Math.PI) - 10 / 5);",
+      "err": {},
+      "isRoot": false,
+      "uuid": "2c59dc07-49a8-4b73-ad60-ce6d0b126cdd",
+      "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+      "skipped": false
+    },
+    {
+      "title": "括号与加减乘除优先级",
+      "fullTitle": "优先级测试 括号与加减乘除优先级",
+      "timedOut": false,
+      "duration": 0,
+      "state": "passed",
+      "speed": "fast",
+      "pass": true,
+      "fail": false,
+      "pending": false,
+      "code": "equal(ca('1+(1+1)*5'), 1 + (1 + 1) * 5);",
+      "err": {},
+      "isRoot": false,
+      "uuid": "eb2fdde4-061a-4668-9905-96fc465a845c",
+      "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+      "skipped": false
+    },
+    {
+      "title": "括号与加减乘除优先级",
+      "fullTitle": "优先级测试 括号与加减乘除优先级",
+      "timedOut": false,
+      "duration": 0,
+      "state": "passed",
+      "speed": "fast",
+      "pass": true,
+      "fail": false,
+      "pending": false,
+      "code": "equal(ca('1+(1+1)*5'), 1 + (1 + 1) * 5);",
+      "err": {},
+      "isRoot": false,
+      "uuid": "c6569731-c732-4724-8116-b2eafcec7a49",
+      "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
+      "skipped": false
+    },
+    {
+      "title": "综合优先级",
+      "fullTitle": "优先级测试 综合优先级",
+      "timedOut": false,
+      "duration": 0,
+      "state": "passed",
+      "speed": "fast",
+      "pass": true,
+      "fail": false,
+      "pending": false,
+      "code": "equal(ca('3/2 - 1+(1+1)*5^2 + (sin(30)*5) + pow(1+1, 1+1)'), 3 / 2 - 1 + (1 + 1) * Math.pow(5, 2) + Math.sin(30 / 180 * Math.PI) * 5 + Math.pow(1 + 1, 1 + 1));",
+      "err": {},
+      "isRoot": false,
+      "uuid": "b8b46a4f-d7d7-48ef-b5ae-8bef7cd01b34",
+      "parentUUID": "1fdc200a-2e46-4b2c-bf46-8b9a4c4f63f5",
       "skipped": false
     },
     {
@@ -2362,8 +2935,8 @@
       "code": "equal(ca('0.1+0.2'), 0.3);",
       "err": {},
       "isRoot": false,
-      "uuid": "59bd673c-4896-4e71-90cf-8a29afab6c74",
-      "parentUUID": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+      "uuid": "ab94417b-6af9-4bfa-b2f7-d30b0bf2265f",
+      "parentUUID": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
       "skipped": false
     },
     {
@@ -2379,8 +2952,8 @@
       "code": "equal(ca('  0.1   +   0.5   '), 0.6);",
       "err": {},
       "isRoot": false,
-      "uuid": "6b67cbfa-e861-48eb-8c85-ab6cb0809e12",
-      "parentUUID": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+      "uuid": "ad9d3dac-4a30-47a5-ae89-3b5bf7ac6edd",
+      "parentUUID": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
       "skipped": false
     },
     {
@@ -2396,8 +2969,8 @@
       "code": "equal(ca('2^3^4'), Math.pow(Math.pow(2, 3), 4));",
       "err": {},
       "isRoot": false,
-      "uuid": "eff1561e-03fc-41ea-9daa-d94e234b940e",
-      "parentUUID": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+      "uuid": "1850e1ff-3c2f-477a-9226-b4371380b1a7",
+      "parentUUID": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
       "skipped": false
     },
     {
@@ -2413,8 +2986,8 @@
       "code": "equal(ca('(2+1)^(3-1)^4'), Math.pow(Math.pow(2 + 1, 3 - 1), 4));",
       "err": {},
       "isRoot": false,
-      "uuid": "761d6f2b-d6ed-4a81-acbd-aa383eb848fd",
-      "parentUUID": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+      "uuid": "cc0bfeec-9925-4cae-80e0-5a52c120f7ab",
+      "parentUUID": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
       "skipped": false
     },
     {
@@ -2430,8 +3003,8 @@
       "code": "equal(ca('1+(1+1)^2'), 5);",
       "err": {},
       "isRoot": false,
-      "uuid": "dd2b6e20-4ce5-4cec-80cb-9db84a3ea8dd",
-      "parentUUID": "990f3877-efe5-4e22-9e7a-6d4484064b48",
+      "uuid": "605cb24e-cdf2-4fc6-bc71-049b7dff7d1b",
+      "parentUUID": "8c3b5989-eef2-4cbd-8e3e-a3afdb4c7d1b",
       "skipped": false
     },
     {
@@ -2447,8 +3020,8 @@
       "code": "equal(ca('1 + 3 + 2^(3^2)'), 516);",
       "err": {},
       "isRoot": false,
-      "uuid": "ae905213-b8d7-4c3d-85c8-3ff037d2198c",
-      "parentUUID": "a2d7f77c-9b95-4aa2-8514-e06d607507e5",
+      "uuid": "679d5b6e-1da5-4bb2-aebf-8e7d9b316822",
+      "parentUUID": "cbbeac0b-2337-4982-b955-c10c64454fb7",
       "skipped": false
     },
     {
@@ -2464,8 +3037,8 @@
       "code": "equal(ca('1 + 3 + sin(5 *(8 + 1))'), +(1 + 3 + Math.sin(5 * (8 + 1) * Math.PI / 180)).toFixed(15));",
       "err": {},
       "isRoot": false,
-      "uuid": "45e5af59-b057-4a75-b66f-c10a6c5f28de",
-      "parentUUID": "a2d7f77c-9b95-4aa2-8514-e06d607507e5",
+      "uuid": "1b44ef0e-32da-4509-a9ff-1638ff4903aa",
+      "parentUUID": "cbbeac0b-2337-4982-b955-c10c64454fb7",
       "skipped": false
     }
   ],
