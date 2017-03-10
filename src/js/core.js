@@ -28,11 +28,13 @@ const compareLevel = (a, b) => {
 let isNum = n => /^[+\-]?\d+(\.\d*)?$/.test(n);
 let isMethodName = n => /^[a-z][a-z\d]*$/i.test(n);
 let isOperate = n => /^[+\-\*/^%(,]$/.test(n);
-let isBlank = n => /\s/.test(n);
+let isBlank = n => /^\s$/.test(n);
 let isConstant = n => !!constants[n];
 let isMethod = n => !!util[n];
 
-// 主要处理逻辑, 传入运算字符串，返回运算结果 或者 包含错误信息的数组。
+// 核心函数, 传入运算字符串，返回运算结果 
+// 如果传入字符串格式错误，则返回包含错误信息的数组。
+// 错误信息的格式为 [错误码, 错误内容, 错误位置]
 function caculate(str) {
 	let res;
 	function innerCaculate(str) {
@@ -222,12 +224,12 @@ function caculate(str) {
 						}
 					}
 
-					// 去掉左括号后，计算之前的运算
-					while( opStack.length && !(/\(|,/.test(opStack[0]))) {
-						let num2 = valueStack.shift(), 
-							num1 = valueStack.shift();
-						valueStack.unshift(op[opStack.shift()](num1, num2));
-					}
+					// // 去掉左括号后，计算之前的运算---- 此思路错误，不应该计算之前的运算，会影响优先级
+					// while( opStack.length && !(/\(|,/.test(opStack[0]))) {
+					// 	let num2 = valueStack.shift(), 
+					// 		num1 = valueStack.shift();
+					// 	valueStack.unshift(op[opStack.shift()](num1, num2));
+					// }
 
 				} else if(lastValue === '(') {
 					if(opStack[0].length !== 1) {
@@ -350,6 +352,7 @@ function caculate(str) {
 	return typeof res === 'object' ? res : +(+res).toFixed(15);
 }
 
+// 验证新建变量是否合法
 // 如果合法，返回true， 反之返回包含错误信息的字符串
 const validVarible = (name, value) => {
 	if(/^[a-z][a-z\d]*$/i.test(name) && isNum(value)) {
@@ -360,6 +363,7 @@ const validVarible = (name, value) => {
 };
 
 const createVarible = (name, value) => constants[name] = +value;
+
 
 const validMethod = (name, body) => {
 	if(!(/^[a-z][a-z\d]*$/i.test(name))) {
@@ -416,7 +420,7 @@ caculate.create = {
 }
 
 caculate.changeModel = {
-	changeArgModel: () => status.isArgStrict = +!status.isArgStrict,
+	changeArgModel: () => status.isArgStrict = !status.isArgStrict,
 	changeIsAngle: () => status.isAngle = !status.isAngle
 }
 
