@@ -18,9 +18,9 @@ const compareLevel = (a, b) => {
 		'^': 3,
 		'*': 2,
 		'/': 2,
-		'%': 1,	
-		'+': 0,
-		'-': 0	
+		'%': 2,	
+		'+': 1,
+		'-': 1	
 	};
 	return levelMap[a] > levelMap[b];	
 }
@@ -57,14 +57,11 @@ function caculate(str) {
 					if(/[\-+]/.test(lastvalue) && isFirstOp) {
 						isFirstOp = false;
 						lastValue += 'π';
-					} else {
-						lastValue = 'π';
 					}
-				} else if(lastValue === '') {
-					lastValue = 'π';
-				} else {
+				} else if(lastValue !== '') {
 					throw new Error(`18, π, ${pos}`);
 				}
+				lastValue = 'π';
 				spaceLen = 0;
 			}
 
@@ -72,7 +69,7 @@ function caculate(str) {
 			// 有很多可能
 			// 1. 存在最前面的或前面还有空格的空格 可以忽略， 判断条件,lastValue没有值 
 			// 2. 其他情况则用spaceLen++, 来监控space的数量
-			// 不额外处理，某种意义上就像忽略了空格
+			// 不额外处理，某种意义上就像忽略了空格, 但是因为有spaceLen监控可以正确的拿到错误的索引
 			else if(isBlank(curChar)) {
  				if(lastValue === '') {
  					continue;
